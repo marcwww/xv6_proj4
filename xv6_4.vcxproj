@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{904FFD71-DE9D-485A-BCFE-6A6A2C3D3DFC}</ProjectGuid>
+    <RootNamespace>xv6_4</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="bio.c" />
+    <ClCompile Include="bootmain.c" />
+    <ClCompile Include="cat.c" />
+    <ClCompile Include="console.c" />
+    <ClCompile Include="echo.c" />
+    <ClCompile Include="exec.c" />
+    <ClCompile Include="file.c" />
+    <ClCompile Include="fs.c" />
+    <ClCompile Include="grep.c" />
+    <ClCompile Include="ide.c" />
+    <ClCompile Include="init.c" />
+    <ClCompile Include="ioapic.c" />
+    <ClCompile Include="kalloc.c" />
+    <ClCompile Include="kbd.c" />
+    <ClCompile Include="kill.c" />
+    <ClCompile Include="lapic.c" />
+    <ClCompile Include="ln.c" />
+    <ClCompile Include="log.c" />
+    <ClCompile Include="lpatest.c" />
+    <ClCompile Include="ls.c" />
+    <ClCompile Include="main.c" />
+    <ClCompile Include="memide.c" />
+    <ClCompile Include="mkdir.c" />
+    <ClCompile Include="mkfs.c" />
+    <ClCompile Include="mp.c" />
+    <ClCompile Include="picirq.c" />
+    <ClCompile Include="pipe.c" />
+    <ClCompile Include="printf.c" />
+    <ClCompile Include="proc.c" />
+    <ClCompile Include="rm.c" />
+    <ClCompile Include="sh.c" />
+    <ClCompile Include="shutdown.c" />
+    <ClCompile Include="spinlock.c" />
+    <ClCompile Include="stressfs.c" />
+    <ClCompile Include="string.c" />
+    <ClCompile Include="syscall.c" />
+    <ClCompile Include="sysfile.c" />
+    <ClCompile Include="sysproc.c" />
+    <ClCompile Include="timer.c" />
+    <ClCompile Include="trap.c" />
+    <ClCompile Include="uart.c" />
+    <ClCompile Include="ulib.c" />
+    <ClCompile Include="umalloc.c" />
+    <ClCompile Include="vm.c" />
+    <ClCompile Include="wc.c" />
+    <ClCompile Include="zombie.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bootasm.S" />
+    <None Include="entry.S" />
+    <None Include="entryother.S" />
+    <None Include="initcode.S" />
+    <None Include="swtch.S" />
+    <None Include="trapasm.S" />
+    <None Include="usys.S" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="asm.h" />
+    <ClInclude Include="buf.h" />
+    <ClInclude Include="date.h" />
+    <ClInclude Include="defs.h" />
+    <ClInclude Include="elf.h" />
+    <ClInclude Include="fcntl.h" />
+    <ClInclude Include="file.h" />
+    <ClInclude Include="fs.h" />
+    <ClInclude Include="kbd.h" />
+    <ClInclude Include="memlayout.h" />
+    <ClInclude Include="mmu.h" />
+    <ClInclude Include="mp.h" />
+    <ClInclude Include="param.h" />
+    <ClInclude Include="proc.h" />
+    <ClInclude Include="spinlock.h" />
+    <ClInclude Include="stat.h" />
+    <ClInclude Include="syscall.h" />
+    <ClInclude Include="traps.h" />
+    <ClInclude Include="types.h" />
+    <ClInclude Include="user.h" />
+    <ClInclude Include="x86.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

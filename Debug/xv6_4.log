@@ -1,0 +1,1741 @@
+﻿生成启动时间为 2016/4/21 星期四 22:10:27。
+     1>项目“Z:\4\xv6_4\xv6_4\xv6_4.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         G:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TC /analyze- /errorReport:prompt bio.c bootmain.c cat.c console.c echo.c exec.c file.c fs.c grep.c ide.c init.c ioapic.c kalloc.c kbd.c kill.c lapic.c ln.c log.c lpatest.c ls.c main.c memide.c mkdir.c mkfs.c mp.c picirq.c pipe.c printf.c proc.c rm.c sh.c shutdown.c spinlock.c stressfs.c string.c syscall.c sysfile.c sysproc.c timer.c trap.c uart.c ulib.c umalloc.c vm.c wc.c zombie.c
+         zombie.c
+     1>z:\4\xv6_4\xv6_4\user.h(6): error C2061: 语法错误: 标识符“__attribute__”
+     1>z:\4\xv6_4\xv6_4\user.h(6): error C2059: 语法错误:“;”
+     1>z:\4\xv6_4\xv6_4\zombie.c(13): warning C4013: “exit”未定义；假设外部返回 int
+         wc.c
+     1>z:\4\xv6_4\xv6_4\user.h(6): error C2061: 语法错误: 标识符“__attribute__”
+     1>z:\4\xv6_4\xv6_4\user.h(6): error C2059: 语法错误:“;”
+     1>z:\4\xv6_4\xv6_4\wc.c(30): warning C4013: “exit”未定义；假设外部返回 int
+         vm.c
+     1>z:\4\xv6_4\xv6_4\defs.h(22): error C2061: 语法错误: 标识符“__attribute__”
+     1>z:\4\xv6_4\xv6_4\defs.h(22): error C2059: 语法错误:“;”
+     1>z:\4\xv6_4\xv6_4\defs.h(22): error C2182: “noreturn”: 非法使用“void”类型
+     1>z:\4\xv6_4\xv6_4\defs.h(114): error C2061: 语法错误: 标识符“__attribute__”
+     1>z:\4\xv6_4\xv6_4\defs.h(114): error C2059: 语法错误:“;”
+     1>z:\4\xv6_4\xv6_4\defs.h(114): error C2182: “noreturn”: 非法使用“void”类型
+     1>z:\4\xv6_4\xv6_4\x86.h(4): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(5): error C2085: “inb”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(5): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(13): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(14): error C2085: “insl”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(14): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(22): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(23): error C2085: “outb”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(23): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(28): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(29): error C2085: “outw”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(29): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(34): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(35): error C2085: “outsl”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(35): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(43): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(44): error C2085: “stosb”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(44): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(52): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(53): error C2085: “stosl”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(53): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(63): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(64): error C2085: “lgdt”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(64): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(77): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(78): error C2085: “lidt”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(78): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(89): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(90): error C2085: “ltr”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(90): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(95): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(96): error C2085: “readeflags”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(96): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(103): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(104): error C2085: “loadgs”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(104): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(109): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(110): error C2085: “cli”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(110): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(115): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(116): error C2085: “sti”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(116): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(121): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(122): error C2085: “xchg”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(122): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(134): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(135): error C2085: “rcr2”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(135): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(142): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(143): error C2085: “lcr3”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(143): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\memlayout.h(13): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\memlayout.h(13): error C2085: “v2p”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\memlayout.h(13): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\memlayout.h(14): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\memlayout.h(14): error C2085: “p2v”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\memlayout.h(14): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\proc.h(30): error C2061: 语法错误: 标识符“asm”
+     1>z:\4\xv6_4\xv6_4\proc.h(30): error C2059: 语法错误:“;”
+     1>z:\4\xv6_4\xv6_4\proc.h(30): error C2059: 语法错误:“字符串”
+     1>z:\4\xv6_4\xv6_4\proc.h(31): error C2061: 语法错误: 标识符“asm”
+     1>z:\4\xv6_4\xv6_4\proc.h(31): error C2059: 语法错误:“;”
+     1>z:\4\xv6_4\xv6_4\proc.h(31): error C2059: 语法错误:“字符串”
+     1>z:\4\xv6_4\xv6_4\vm.c(26): error C2059: 语法错误:“{”
+     1>z:\4\xv6_4\xv6_4\vm.c(27): error C2059: 语法错误:“{”
+     1>z:\4\xv6_4\xv6_4\vm.c(28): error C2059: 语法错误:“{”
+     1>z:\4\xv6_4\xv6_4\vm.c(29): error C2059: 语法错误:“{”
+     1>z:\4\xv6_4\xv6_4\vm.c(32): error C2059: 语法错误:“{”
+     1>z:\4\xv6_4\xv6_4\vm.c(34): warning C4013: “lgdt”未定义；假设外部返回 int
+     1>z:\4\xv6_4\xv6_4\vm.c(35): warning C4013: “loadgs”未定义；假设外部返回 int
+     1>z:\4\xv6_4\xv6_4\vm.c(38): error C2065: “cpu”: 未声明的标识符
+     1>z:\4\xv6_4\xv6_4\vm.c(38): warning C4047: “=”:“int”与“cpu *”的间接级别不同
+     1>z:\4\xv6_4\xv6_4\vm.c(39): error C2065: “proc”: 未声明的标识符
+     1>z:\4\xv6_4\xv6_4\vm.c(45): error C2143: 语法错误 : 缺少“{”(在“*”的前面)
+     1>z:\4\xv6_4\xv6_4\vm.c(53): warning C4013: “p2v”未定义；假设外部返回 int
+     1>z:\4\xv6_4\xv6_4\vm.c(62): warning C4013: “v2p”未定义；假设外部返回 int
+     1>z:\4\xv6_4\xv6_4\vm.c(82): warning C4013: “panic”未定义；假设外部返回 int
+     1>z:\4\xv6_4\xv6_4\vm.c(137): warning C4047: “>”:“int”与“void *”的间接级别不同
+     1>z:\4\xv6_4\xv6_4\vm.c(160): warning C4013: “lcr3”未定义；假设外部返回 int
+     1>z:\4\xv6_4\xv6_4\vm.c(168): error C2065: “cpu”: 未声明的标识符
+     1>z:\4\xv6_4\xv6_4\vm.c(168): error C2223: “->gdt”的左侧必须指向结构/联合
+     1>z:\4\xv6_4\xv6_4\vm.c(168): error C2059: 语法错误:“{”
+     1>z:\4\xv6_4\xv6_4\vm.c(169): error C2065: “cpu”: 未声明的标识符
+     1>z:\4\xv6_4\xv6_4\vm.c(169): error C2223: “->gdt”的左侧必须指向结构/联合
+     1>z:\4\xv6_4\xv6_4\vm.c(170): error C2065: “cpu”: 未声明的标识符
+     1>z:\4\xv6_4\xv6_4\vm.c(170): error C2223: “->ts”的左侧必须指向结构/联合
+     1>z:\4\xv6_4\xv6_4\vm.c(171): error C2065: “cpu”: 未声明的标识符
+     1>z:\4\xv6_4\xv6_4\vm.c(171): error C2223: “->ts”的左侧必须指向结构/联合
+     1>z:\4\xv6_4\xv6_4\vm.c(171): error C2065: “proc”: 未声明的标识符
+     1>z:\4\xv6_4\xv6_4\vm.c(171): error C2223: “->kstack”的左侧必须指向结构/联合
+     1>z:\4\xv6_4\xv6_4\vm.c(172): warning C4013: “ltr”未定义；假设外部返回 int
+     1>z:\4\xv6_4\xv6_4\vm.c(212): warning C4047: “函数”:“char *”与“int”的间接级别不同
+     1>z:\4\xv6_4\xv6_4\vm.c(212): warning C4024: “readi”: 形参和实参 2 的类型不同
+     1>z:\4\xv6_4\xv6_4\vm.c(267): error C2143: 语法错误 : 缺少“;”(在“类型”的前面)
+     1>z:\4\xv6_4\xv6_4\vm.c(268): error C2065: “v”: 未声明的标识符
+     1>z:\4\xv6_4\xv6_4\vm.c(268): warning C4047: “函数”:“char *”与“int”的间接级别不同
+     1>z:\4\xv6_4\xv6_4\vm.c(268): warning C4024: “kfree”: 形参和实参 1 的类型不同
+     1>z:\4\xv6_4\xv6_4\vm.c(287): warning C4047: “初始化”:“char *”与“int”的间接级别不同
+         umalloc.c
+     1>z:\4\xv6_4\xv6_4\user.h(6): error C2061: 语法错误: 标识符“__attribute__”
+     1>z:\4\xv6_4\xv6_4\user.h(6): error C2059: 语法错误:“;”
+         ulib.c
+     1>z:\4\xv6_4\xv6_4\user.h(6): error C2061: 语法错误: 标识符“__attribute__”
+     1>z:\4\xv6_4\xv6_4\user.h(6): error C2059: 语法错误:“;”
+     1>z:\4\xv6_4\xv6_4\x86.h(4): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(5): error C2085: “inb”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(5): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(13): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(14): error C2085: “insl”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(14): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(22): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(23): error C2085: “outb”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(23): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(28): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(29): error C2085: “outw”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(29): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(34): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(35): error C2085: “outsl”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(35): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(43): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(44): error C2085: “stosb”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(44): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(52): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(53): error C2085: “stosl”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(53): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(63): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(64): error C2085: “lgdt”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(64): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(77): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(78): error C2085: “lidt”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(78): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(89): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(90): error C2085: “ltr”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(90): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(95): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(96): error C2085: “readeflags”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(96): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(103): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(104): error C2085: “loadgs”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(104): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(109): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(110): error C2085: “cli”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(110): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(115): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(116): error C2085: “sti”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(116): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(121): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(122): error C2085: “xchg”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(122): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(134): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(135): error C2085: “rcr2”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(135): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(142): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(143): error C2085: “lcr3”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(143): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\ulib.c(39): warning C4013: “stosb”未定义；假设外部返回 int
+         uart.c
+     1>z:\4\xv6_4\xv6_4\defs.h(22): error C2061: 语法错误: 标识符“__attribute__”
+     1>z:\4\xv6_4\xv6_4\defs.h(22): error C2059: 语法错误:“;”
+     1>z:\4\xv6_4\xv6_4\defs.h(22): error C2182: “noreturn”: 非法使用“void”类型
+     1>z:\4\xv6_4\xv6_4\defs.h(114): error C2061: 语法错误: 标识符“__attribute__”
+     1>z:\4\xv6_4\xv6_4\defs.h(114): error C2059: 语法错误:“;”
+     1>z:\4\xv6_4\xv6_4\defs.h(114): error C2182: “noreturn”: 非法使用“void”类型
+     1>z:\4\xv6_4\xv6_4\proc.h(30): error C2061: 语法错误: 标识符“asm”
+     1>z:\4\xv6_4\xv6_4\proc.h(30): error C2059: 语法错误:“;”
+     1>z:\4\xv6_4\xv6_4\proc.h(30): error C2059: 语法错误:“字符串”
+     1>z:\4\xv6_4\xv6_4\proc.h(31): error C2061: 语法错误: 标识符“asm”
+     1>z:\4\xv6_4\xv6_4\proc.h(31): error C2059: 语法错误:“;”
+     1>z:\4\xv6_4\xv6_4\proc.h(31): error C2059: 语法错误:“字符串”
+     1>z:\4\xv6_4\xv6_4\x86.h(4): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(5): error C2085: “inb”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(5): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(13): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(14): error C2085: “insl”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(14): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(22): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(23): error C2085: “outb”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(23): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(28): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(29): error C2085: “outw”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(29): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(34): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(35): error C2085: “outsl”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(35): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(43): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(44): error C2085: “stosb”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(44): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(52): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(53): error C2085: “stosl”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(53): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(63): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(64): error C2085: “lgdt”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(64): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(77): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(78): error C2085: “lidt”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(78): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(89): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(90): error C2085: “ltr”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(90): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(95): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(96): error C2085: “readeflags”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(96): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(103): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(104): error C2085: “loadgs”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(104): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(109): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(110): error C2085: “cli”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(110): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(115): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(116): error C2085: “sti”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(116): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(121): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(122): error C2085: “xchg”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(122): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(134): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(135): error C2085: “rcr2”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(135): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(142): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(143): error C2085: “lcr3”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(143): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\uart.c(24): warning C4013: “outb”未定义；假设外部返回 int
+     1>z:\4\xv6_4\xv6_4\uart.c(35): warning C4013: “inb”未定义；假设外部返回 int
+         trap.c
+     1>z:\4\xv6_4\xv6_4\defs.h(22): error C2061: 语法错误: 标识符“__attribute__”
+     1>z:\4\xv6_4\xv6_4\defs.h(22): error C2059: 语法错误:“;”
+     1>z:\4\xv6_4\xv6_4\defs.h(22): error C2182: “noreturn”: 非法使用“void”类型
+     1>z:\4\xv6_4\xv6_4\defs.h(114): error C2061: 语法错误: 标识符“__attribute__”
+     1>z:\4\xv6_4\xv6_4\defs.h(114): error C2059: 语法错误:“;”
+     1>z:\4\xv6_4\xv6_4\defs.h(114): error C2182: “noreturn”: 非法使用“void”类型
+     1>z:\4\xv6_4\xv6_4\memlayout.h(13): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\memlayout.h(13): error C2085: “v2p”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\memlayout.h(13): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\memlayout.h(14): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\memlayout.h(14): error C2085: “p2v”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\memlayout.h(14): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\proc.h(30): error C2061: 语法错误: 标识符“asm”
+     1>z:\4\xv6_4\xv6_4\proc.h(30): error C2059: 语法错误:“;”
+     1>z:\4\xv6_4\xv6_4\proc.h(30): error C2059: 语法错误:“字符串”
+     1>z:\4\xv6_4\xv6_4\proc.h(31): error C2061: 语法错误: 标识符“asm”
+     1>z:\4\xv6_4\xv6_4\proc.h(31): error C2059: 语法错误:“;”
+     1>z:\4\xv6_4\xv6_4\proc.h(31): error C2059: 语法错误:“字符串”
+     1>z:\4\xv6_4\xv6_4\x86.h(4): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(5): error C2085: “inb”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(5): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(13): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(14): error C2085: “insl”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(14): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(22): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(23): error C2085: “outb”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(23): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(28): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(29): error C2085: “outw”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(29): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(34): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(35): error C2085: “outsl”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(35): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(43): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(44): error C2085: “stosb”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(44): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(52): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(53): error C2085: “stosl”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(53): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(63): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(64): error C2085: “lgdt”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(64): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(77): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(78): error C2085: “lidt”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(78): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(89): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(90): error C2085: “ltr”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(90): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(95): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(96): error C2085: “readeflags”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(96): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(103): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(104): error C2085: “loadgs”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(104): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(109): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(110): error C2085: “cli”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(110): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(115): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(116): error C2085: “sti”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(116): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(121): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(122): error C2085: “xchg”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(122): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(134): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(135): error C2085: “rcr2”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(135): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(142): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(143): error C2085: “lcr3”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(143): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\trap.c(32): warning C4013: “lidt”未定义；假设外部返回 int
+     1>z:\4\xv6_4\xv6_4\trap.c(40): error C2065: “proc”: 未声明的标识符
+     1>z:\4\xv6_4\xv6_4\trap.c(40): error C2223: “->killed”的左侧必须指向结构/联合
+     1>z:\4\xv6_4\xv6_4\trap.c(42): error C2065: “proc”: 未声明的标识符
+     1>z:\4\xv6_4\xv6_4\trap.c(42): error C2223: “->tf”的左侧必须指向结构/联合
+     1>z:\4\xv6_4\xv6_4\trap.c(44): error C2065: “proc”: 未声明的标识符
+     1>z:\4\xv6_4\xv6_4\trap.c(44): error C2223: “->killed”的左侧必须指向结构/联合
+     1>z:\4\xv6_4\xv6_4\trap.c(51): error C2065: “cpu”: 未声明的标识符
+     1>z:\4\xv6_4\xv6_4\trap.c(51): error C2223: “->id”的左侧必须指向结构/联合
+     1>z:\4\xv6_4\xv6_4\trap.c(77): error C2065: “cpu”: 未声明的标识符
+     1>z:\4\xv6_4\xv6_4\trap.c(77): error C2223: “->id”的左侧必须指向结构/联合
+     1>z:\4\xv6_4\xv6_4\trap.c(83): error C2065: “proc”: 未声明的标识符
+     1>z:\4\xv6_4\xv6_4\trap.c(86): error C2065: “cpu”: 未声明的标识符
+     1>z:\4\xv6_4\xv6_4\trap.c(86): error C2223: “->id”的左侧必须指向结构/联合
+     1>z:\4\xv6_4\xv6_4\trap.c(86): warning C4013: “rcr2”未定义；假设外部返回 int
+     1>z:\4\xv6_4\xv6_4\trap.c(87): warning C4013: “panic”未定义；假设外部返回 int
+     1>z:\4\xv6_4\xv6_4\trap.c(92): error C2065: “proc”: 未声明的标识符
+     1>z:\4\xv6_4\xv6_4\trap.c(92): error C2223: “->pid”的左侧必须指向结构/联合
+     1>z:\4\xv6_4\xv6_4\trap.c(92): error C2223: “->name”的左侧必须指向结构/联合
+     1>z:\4\xv6_4\xv6_4\trap.c(92): error C2065: “cpu”: 未声明的标识符
+     1>z:\4\xv6_4\xv6_4\trap.c(92): error C2223: “->id”的左侧必须指向结构/联合
+     1>z:\4\xv6_4\xv6_4\trap.c(94): error C2065: “proc”: 未声明的标识符
+     1>z:\4\xv6_4\xv6_4\trap.c(94): error C2223: “->killed”的左侧必须指向结构/联合
+     1>z:\4\xv6_4\xv6_4\trap.c(100): error C2065: “proc”: 未声明的标识符
+     1>z:\4\xv6_4\xv6_4\trap.c(100): error C2223: “->killed”的左侧必须指向结构/联合
+     1>z:\4\xv6_4\xv6_4\trap.c(105): error C2065: “proc”: 未声明的标识符
+     1>z:\4\xv6_4\xv6_4\trap.c(105): error C2223: “->state”的左侧必须指向结构/联合
+     1>z:\4\xv6_4\xv6_4\trap.c(109): error C2065: “proc”: 未声明的标识符
+     1>z:\4\xv6_4\xv6_4\trap.c(109): error C2223: “->killed”的左侧必须指向结构/联合
+         timer.c
+     1>z:\4\xv6_4\xv6_4\defs.h(22): error C2061: 语法错误: 标识符“__attribute__”
+     1>z:\4\xv6_4\xv6_4\defs.h(22): error C2059: 语法错误:“;”
+     1>z:\4\xv6_4\xv6_4\defs.h(22): error C2182: “noreturn”: 非法使用“void”类型
+     1>z:\4\xv6_4\xv6_4\defs.h(114): error C2061: 语法错误: 标识符“__attribute__”
+     1>z:\4\xv6_4\xv6_4\defs.h(114): error C2059: 语法错误:“;”
+     1>z:\4\xv6_4\xv6_4\defs.h(114): error C2182: “noreturn”: 非法使用“void”类型
+     1>z:\4\xv6_4\xv6_4\x86.h(4): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(5): error C2085: “inb”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(5): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(13): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(14): error C2085: “insl”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(14): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(22): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(23): error C2085: “outb”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(23): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(28): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(29): error C2085: “outw”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(29): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(34): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(35): error C2085: “outsl”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(35): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(43): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(44): error C2085: “stosb”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(44): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(52): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(53): error C2085: “stosl”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(53): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(63): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(64): error C2085: “lgdt”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(64): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(77): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(78): error C2085: “lidt”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(78): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(89): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(90): error C2085: “ltr”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(90): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(95): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(96): error C2085: “readeflags”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(96): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(103): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(104): error C2085: “loadgs”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(104): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(109): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(110): error C2085: “cli”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(110): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(115): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(116): error C2085: “sti”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(116): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(121): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(122): error C2085: “xchg”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(122): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(134): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(135): error C2085: “rcr2”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(135): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(142): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(143): error C2085: “lcr3”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(143): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\timer.c(28): warning C4013: “outb”未定义；假设外部返回 int
+         sysproc.c
+     1>z:\4\xv6_4\xv6_4\x86.h(4): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(5): error C2085: “inb”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(5): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(13): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(14): error C2085: “insl”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(14): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(22): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(23): error C2085: “outb”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(23): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(28): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(29): error C2085: “outw”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(29): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(34): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(35): error C2085: “outsl”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(35): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(43): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(44): error C2085: “stosb”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(44): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(52): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(53): error C2085: “stosl”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(53): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(63): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(64): error C2085: “lgdt”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(64): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(77): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(78): error C2085: “lidt”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(78): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(89): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(90): error C2085: “ltr”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(90): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(95): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(96): error C2085: “readeflags”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(96): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(103): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(104): error C2085: “loadgs”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(104): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(109): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(110): error C2085: “cli”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(110): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(115): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(116): error C2085: “sti”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(116): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(121): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(122): error C2085: “xchg”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(122): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(134): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(135): error C2085: “rcr2”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(135): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(142): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(143): error C2085: “lcr3”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(143): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\defs.h(22): error C2061: 语法错误: 标识符“__attribute__”
+     1>z:\4\xv6_4\xv6_4\defs.h(22): error C2059: 语法错误:“;”
+     1>z:\4\xv6_4\xv6_4\defs.h(22): error C2182: “noreturn”: 非法使用“void”类型
+     1>z:\4\xv6_4\xv6_4\defs.h(114): error C2061: 语法错误: 标识符“__attribute__”
+     1>z:\4\xv6_4\xv6_4\defs.h(114): error C2059: 语法错误:“;”
+     1>z:\4\xv6_4\xv6_4\defs.h(114): error C2182: “noreturn”: 非法使用“void”类型
+     1>z:\4\xv6_4\xv6_4\memlayout.h(13): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\memlayout.h(13): error C2085: “v2p”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\memlayout.h(13): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\memlayout.h(14): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\memlayout.h(14): error C2085: “p2v”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\memlayout.h(14): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\proc.h(30): error C2061: 语法错误: 标识符“asm”
+     1>z:\4\xv6_4\xv6_4\proc.h(30): error C2059: 语法错误:“;”
+     1>z:\4\xv6_4\xv6_4\proc.h(30): error C2059: 语法错误:“字符串”
+     1>z:\4\xv6_4\xv6_4\proc.h(31): error C2061: 语法错误: 标识符“asm”
+     1>z:\4\xv6_4\xv6_4\proc.h(31): error C2059: 语法错误:“;”
+     1>z:\4\xv6_4\xv6_4\proc.h(31): error C2059: 语法错误:“字符串”
+     1>z:\4\xv6_4\xv6_4\sysproc.c(43): error C2065: “proc”: 未声明的标识符
+     1>z:\4\xv6_4\xv6_4\sysproc.c(43): error C2223: “->pid”的左侧必须指向结构/联合
+     1>z:\4\xv6_4\xv6_4\sysproc.c(43): warning C4033: “sys_getpid”必须返回值
+     1>z:\4\xv6_4\xv6_4\sysproc.c(54): error C2065: “proc”: 未声明的标识符
+     1>z:\4\xv6_4\xv6_4\sysproc.c(54): error C2223: “->sz”的左侧必须指向结构/联合
+     1>z:\4\xv6_4\xv6_4\sysproc.c(70): warning C4018: “<”: 有符号/无符号不匹配
+     1>z:\4\xv6_4\xv6_4\sysproc.c(71): error C2065: “proc”: 未声明的标识符
+     1>z:\4\xv6_4\xv6_4\sysproc.c(71): error C2223: “->killed”的左侧必须指向结构/联合
+     1>z:\4\xv6_4\xv6_4\sysproc.c(95): warning C4013: “outw”未定义；假设外部返回 int
+         sysfile.c
+     1>z:\4\xv6_4\xv6_4\defs.h(22): error C2061: 语法错误: 标识符“__attribute__”
+     1>z:\4\xv6_4\xv6_4\defs.h(22): error C2059: 语法错误:“;”
+     1>z:\4\xv6_4\xv6_4\defs.h(22): error C2182: “noreturn”: 非法使用“void”类型
+     1>z:\4\xv6_4\xv6_4\defs.h(114): error C2061: 语法错误: 标识符“__attribute__”
+     1>z:\4\xv6_4\xv6_4\defs.h(114): error C2059: 语法错误:“;”
+     1>z:\4\xv6_4\xv6_4\defs.h(114): error C2182: “noreturn”: 非法使用“void”类型
+     1>z:\4\xv6_4\xv6_4\proc.h(30): error C2061: 语法错误: 标识符“asm”
+     1>z:\4\xv6_4\xv6_4\proc.h(30): error C2059: 语法错误:“;”
+     1>z:\4\xv6_4\xv6_4\proc.h(30): error C2059: 语法错误:“字符串”
+     1>z:\4\xv6_4\xv6_4\proc.h(31): error C2061: 语法错误: 标识符“asm”
+     1>z:\4\xv6_4\xv6_4\proc.h(31): error C2059: 语法错误:“;”
+     1>z:\4\xv6_4\xv6_4\proc.h(31): error C2059: 语法错误:“字符串”
+     1>z:\4\xv6_4\xv6_4\sysfile.c(27): error C2065: “proc”: 未声明的标识符
+     1>z:\4\xv6_4\xv6_4\sysfile.c(27): error C2223: “->ofile”的左侧必须指向结构/联合
+     1>z:\4\xv6_4\xv6_4\sysfile.c(44): error C2065: “proc”: 未声明的标识符
+     1>z:\4\xv6_4\xv6_4\sysfile.c(44): error C2223: “->ofile”的左侧必须指向结构/联合
+     1>z:\4\xv6_4\xv6_4\sysfile.c(45): error C2065: “proc”: 未声明的标识符
+     1>z:\4\xv6_4\xv6_4\sysfile.c(45): error C2223: “->ofile”的左侧必须指向结构/联合
+     1>z:\4\xv6_4\xv6_4\sysfile.c(98): error C2065: “proc”: 未声明的标识符
+     1>z:\4\xv6_4\xv6_4\sysfile.c(98): error C2223: “->ofile”的左侧必须指向结构/联合
+     1>z:\4\xv6_4\xv6_4\sysfile.c(171): warning C4018: “<”: 有符号/无符号不匹配
+     1>z:\4\xv6_4\xv6_4\sysfile.c(173): warning C4013: “panic”未定义；假设外部返回 int
+     1>z:\4\xv6_4\xv6_4\sysfile.c(388): error C2065: “proc”: 未声明的标识符
+     1>z:\4\xv6_4\xv6_4\sysfile.c(388): error C2223: “->cwd”的左侧必须指向结构/联合
+     1>z:\4\xv6_4\xv6_4\sysfile.c(388): error C2198: “iput”: 用于调用的参数太少
+     1>z:\4\xv6_4\xv6_4\sysfile.c(390): error C2065: “proc”: 未声明的标识符
+     1>z:\4\xv6_4\xv6_4\sysfile.c(390): error C2223: “->cwd”的左侧必须指向结构/联合
+     1>z:\4\xv6_4\xv6_4\sysfile.c(434): error C2065: “proc”: 未声明的标识符
+     1>z:\4\xv6_4\xv6_4\sysfile.c(434): error C2223: “->ofile”的左侧必须指向结构/联合
+         syscall.c
+     1>z:\4\xv6_4\xv6_4\defs.h(22): error C2061: 语法错误: 标识符“__attribute__”
+     1>z:\4\xv6_4\xv6_4\defs.h(22): error C2059: 语法错误:“;”
+     1>z:\4\xv6_4\xv6_4\defs.h(22): error C2182: “noreturn”: 非法使用“void”类型
+     1>z:\4\xv6_4\xv6_4\defs.h(114): error C2061: 语法错误: 标识符“__attribute__”
+     1>z:\4\xv6_4\xv6_4\defs.h(114): error C2059: 语法错误:“;”
+     1>z:\4\xv6_4\xv6_4\defs.h(114): error C2182: “noreturn”: 非法使用“void”类型
+     1>z:\4\xv6_4\xv6_4\memlayout.h(13): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\memlayout.h(13): error C2085: “v2p”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\memlayout.h(13): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\memlayout.h(14): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\memlayout.h(14): error C2085: “p2v”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\memlayout.h(14): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\proc.h(30): error C2061: 语法错误: 标识符“asm”
+     1>z:\4\xv6_4\xv6_4\proc.h(30): error C2059: 语法错误:“;”
+     1>z:\4\xv6_4\xv6_4\proc.h(30): error C2059: 语法错误:“字符串”
+     1>z:\4\xv6_4\xv6_4\proc.h(31): error C2061: 语法错误: 标识符“asm”
+     1>z:\4\xv6_4\xv6_4\proc.h(31): error C2059: 语法错误:“;”
+     1>z:\4\xv6_4\xv6_4\proc.h(31): error C2059: 语法错误:“字符串”
+     1>z:\4\xv6_4\xv6_4\x86.h(4): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(5): error C2085: “inb”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(5): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(13): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(14): error C2085: “insl”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(14): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(22): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(23): error C2085: “outb”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(23): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(28): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(29): error C2085: “outw”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(29): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(34): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(35): error C2085: “outsl”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(35): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(43): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(44): error C2085: “stosb”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(44): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(52): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(53): error C2085: “stosl”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(53): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(63): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(64): error C2085: “lgdt”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(64): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(77): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(78): error C2085: “lidt”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(78): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(89): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(90): error C2085: “ltr”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(90): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(95): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(96): error C2085: “readeflags”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(96): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(103): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(104): error C2085: “loadgs”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(104): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(109): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(110): error C2085: “cli”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(110): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(115): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(116): error C2085: “sti”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(116): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(121): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(122): error C2085: “xchg”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(122): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(134): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(135): error C2085: “rcr2”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(135): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(142): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(143): error C2085: “lcr3”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(143): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\syscall.c(20): error C2065: “proc”: 未声明的标识符
+     1>z:\4\xv6_4\xv6_4\syscall.c(20): error C2223: “->sz”的左侧必须指向结构/联合
+     1>z:\4\xv6_4\xv6_4\syscall.c(34): error C2065: “proc”: 未声明的标识符
+     1>z:\4\xv6_4\xv6_4\syscall.c(34): error C2223: “->sz”的左侧必须指向结构/联合
+     1>z:\4\xv6_4\xv6_4\syscall.c(37): error C2065: “proc”: 未声明的标识符
+     1>z:\4\xv6_4\xv6_4\syscall.c(37): error C2223: “->sz”的左侧必须指向结构/联合
+     1>z:\4\xv6_4\xv6_4\syscall.c(48): error C2065: “proc”: 未声明的标识符
+     1>z:\4\xv6_4\xv6_4\syscall.c(48): error C2223: “->tf”的左侧必须指向结构/联合
+     1>z:\4\xv6_4\xv6_4\syscall.c(48): warning C4047: “函数”:“uint”与“int *”的间接级别不同
+     1>z:\4\xv6_4\xv6_4\syscall.c(48): warning C4024: “fetchint”: 形参和实参 1 的类型不同
+     1>z:\4\xv6_4\xv6_4\syscall.c(48): error C2198: “fetchint”: 用于调用的参数太少
+     1>z:\4\xv6_4\xv6_4\syscall.c(61): error C2065: “proc”: 未声明的标识符
+     1>z:\4\xv6_4\xv6_4\syscall.c(61): error C2223: “->sz”的左侧必须指向结构/联合
+     1>z:\4\xv6_4\xv6_4\syscall.c(105): error C2059: 语法错误:“[”
+     1>z:\4\xv6_4\xv6_4\syscall.c(135): error C2065: “proc”: 未声明的标识符
+     1>z:\4\xv6_4\xv6_4\syscall.c(135): error C2223: “->tf”的左侧必须指向结构/联合
+     1>z:\4\xv6_4\xv6_4\syscall.c(136): warning C4034: sizeof 返回 0
+     1>z:\4\xv6_4\xv6_4\syscall.c(137): error C2065: “proc”: 未声明的标识符
+     1>z:\4\xv6_4\xv6_4\syscall.c(137): error C2223: “->tf”的左侧必须指向结构/联合
+     1>z:\4\xv6_4\xv6_4\syscall.c(140): error C2065: “proc”: 未声明的标识符
+     1>z:\4\xv6_4\xv6_4\syscall.c(140): error C2223: “->pid”的左侧必须指向结构/联合
+     1>z:\4\xv6_4\xv6_4\syscall.c(140): error C2223: “->name”的左侧必须指向结构/联合
+     1>z:\4\xv6_4\xv6_4\syscall.c(141): error C2065: “proc”: 未声明的标识符
+     1>z:\4\xv6_4\xv6_4\syscall.c(141): error C2223: “->tf”的左侧必须指向结构/联合
+         string.c
+     1>z:\4\xv6_4\xv6_4\x86.h(4): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(5): error C2085: “inb”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(5): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(13): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(14): error C2085: “insl”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(14): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(22): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(23): error C2085: “outb”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(23): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(28): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(29): error C2085: “outw”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(29): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(34): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(35): error C2085: “outsl”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(35): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(43): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(44): error C2085: “stosb”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(44): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(52): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(53): error C2085: “stosl”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(53): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(63): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(64): error C2085: “lgdt”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(64): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(77): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(78): error C2085: “lidt”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(78): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(89): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(90): error C2085: “ltr”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(90): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(95): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(96): error C2085: “readeflags”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(96): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(103): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(104): error C2085: “loadgs”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(104): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(109): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(110): error C2085: “cli”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(110): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(115): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(116): error C2085: “sti”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(116): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(121): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(122): error C2085: “xchg”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(122): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(134): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(135): error C2085: “rcr2”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(135): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(142): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(143): error C2085: “lcr3”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(143): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\string.c(9): warning C4013: “stosl”未定义；假设外部返回 int
+     1>z:\4\xv6_4\xv6_4\string.c(11): warning C4013: “stosb”未定义；假设外部返回 int
+         stressfs.c
+     1>z:\4\xv6_4\xv6_4\user.h(6): error C2061: 语法错误: 标识符“__attribute__”
+     1>z:\4\xv6_4\xv6_4\user.h(6): error C2059: 语法错误:“;”
+     1>z:\4\xv6_4\xv6_4\stressfs.c(48): warning C4013: “exit”未定义；假设外部返回 int
+         spinlock.c
+     1>z:\4\xv6_4\xv6_4\defs.h(22): error C2061: 语法错误: 标识符“__attribute__”
+     1>z:\4\xv6_4\xv6_4\defs.h(22): error C2059: 语法错误:“;”
+     1>z:\4\xv6_4\xv6_4\defs.h(22): error C2182: “noreturn”: 非法使用“void”类型
+     1>z:\4\xv6_4\xv6_4\defs.h(114): error C2061: 语法错误: 标识符“__attribute__”
+     1>z:\4\xv6_4\xv6_4\defs.h(114): error C2059: 语法错误:“;”
+     1>z:\4\xv6_4\xv6_4\defs.h(114): error C2182: “noreturn”: 非法使用“void”类型
+     1>z:\4\xv6_4\xv6_4\x86.h(4): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(5): error C2085: “inb”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(5): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(13): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(14): error C2085: “insl”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(14): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(22): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(23): error C2085: “outb”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(23): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(28): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(29): error C2085: “outw”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(29): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(34): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(35): error C2085: “outsl”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(35): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(43): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(44): error C2085: “stosb”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(44): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(52): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(53): error C2085: “stosl”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(53): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(63): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(64): error C2085: “lgdt”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(64): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(77): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(78): error C2085: “lidt”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(78): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(89): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(90): error C2085: “ltr”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(90): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(95): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(96): error C2085: “readeflags”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(96): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(103): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(104): error C2085: “loadgs”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(104): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(109): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(110): error C2085: “cli”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(110): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(115): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(116): error C2085: “sti”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(116): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(121): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(122): error C2085: “xchg”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(122): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(134): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(135): error C2085: “rcr2”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(135): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(142): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(143): error C2085: “lcr3”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(143): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\memlayout.h(13): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\memlayout.h(13): error C2085: “v2p”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\memlayout.h(13): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\memlayout.h(14): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\memlayout.h(14): error C2085: “p2v”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\memlayout.h(14): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\proc.h(30): error C2061: 语法错误: 标识符“asm”
+     1>z:\4\xv6_4\xv6_4\proc.h(30): error C2059: 语法错误:“;”
+     1>z:\4\xv6_4\xv6_4\proc.h(30): error C2059: 语法错误:“字符串”
+     1>z:\4\xv6_4\xv6_4\proc.h(31): error C2061: 语法错误: 标识符“asm”
+     1>z:\4\xv6_4\xv6_4\proc.h(31): error C2059: 语法错误:“;”
+     1>z:\4\xv6_4\xv6_4\proc.h(31): error C2059: 语法错误:“字符串”
+     1>z:\4\xv6_4\xv6_4\spinlock.c(29): warning C4013: “panic”未定义；假设外部返回 int
+     1>z:\4\xv6_4\xv6_4\spinlock.c(34): warning C4013: “xchg”未定义；假设外部返回 int
+     1>z:\4\xv6_4\xv6_4\spinlock.c(38): error C2065: “cpu”: 未声明的标识符
+     1>z:\4\xv6_4\xv6_4\spinlock.c(38): warning C4047: “=”:“cpu *”与“int”的间接级别不同
+     1>z:\4\xv6_4\xv6_4\spinlock.c(88): error C2065: “cpu”: 未声明的标识符
+     1>z:\4\xv6_4\xv6_4\spinlock.c(88): warning C4047: “==”:“cpu *”与“int”的间接级别不同
+     1>z:\4\xv6_4\xv6_4\spinlock.c(101): warning C4013: “readeflags”未定义；假设外部返回 int
+     1>z:\4\xv6_4\xv6_4\spinlock.c(102): warning C4013: “cli”未定义；假设外部返回 int
+     1>z:\4\xv6_4\xv6_4\spinlock.c(103): error C2065: “cpu”: 未声明的标识符
+     1>z:\4\xv6_4\xv6_4\spinlock.c(103): error C2223: “->ncli”的左侧必须指向结构/联合
+     1>z:\4\xv6_4\xv6_4\spinlock.c(104): error C2065: “cpu”: 未声明的标识符
+     1>z:\4\xv6_4\xv6_4\spinlock.c(104): error C2223: “->intena”的左侧必须指向结构/联合
+     1>z:\4\xv6_4\xv6_4\spinlock.c(112): error C2065: “cpu”: 未声明的标识符
+     1>z:\4\xv6_4\xv6_4\spinlock.c(112): error C2223: “->ncli”的左侧必须指向结构/联合
+     1>z:\4\xv6_4\xv6_4\spinlock.c(114): error C2065: “cpu”: 未声明的标识符
+     1>z:\4\xv6_4\xv6_4\spinlock.c(114): error C2223: “->ncli”的左侧必须指向结构/联合
+     1>z:\4\xv6_4\xv6_4\spinlock.c(114): error C2223: “->intena”的左侧必须指向结构/联合
+     1>z:\4\xv6_4\xv6_4\spinlock.c(115): warning C4013: “sti”未定义；假设外部返回 int
+         shutdown.c
+     1>z:\4\xv6_4\xv6_4\user.h(6): error C2061: 语法错误: 标识符“__attribute__”
+     1>z:\4\xv6_4\xv6_4\user.h(6): error C2059: 语法错误:“;”
+         sh.c
+     1>z:\4\xv6_4\xv6_4\user.h(6): error C2061: 语法错误: 标识符“__attribute__”
+     1>z:\4\xv6_4\xv6_4\user.h(6): error C2059: 语法错误:“;”
+     1>z:\4\xv6_4\xv6_4\sh.c(68): warning C4013: “exit”未定义；假设外部返回 int
+         rm.c
+     1>z:\4\xv6_4\xv6_4\user.h(6): error C2061: 语法错误: 标识符“__attribute__”
+     1>z:\4\xv6_4\xv6_4\user.h(6): error C2059: 语法错误:“;”
+     1>z:\4\xv6_4\xv6_4\rm.c(12): warning C4013: “exit”未定义；假设外部返回 int
+         proc.c
+     1>z:\4\xv6_4\xv6_4\defs.h(22): error C2061: 语法错误: 标识符“__attribute__”
+     1>z:\4\xv6_4\xv6_4\defs.h(22): error C2059: 语法错误:“;”
+     1>z:\4\xv6_4\xv6_4\defs.h(22): error C2182: “noreturn”: 非法使用“void”类型
+     1>z:\4\xv6_4\xv6_4\defs.h(114): error C2061: 语法错误: 标识符“__attribute__”
+     1>z:\4\xv6_4\xv6_4\defs.h(114): error C2059: 语法错误:“;”
+     1>z:\4\xv6_4\xv6_4\defs.h(114): error C2182: “noreturn”: 非法使用“void”类型
+     1>z:\4\xv6_4\xv6_4\memlayout.h(13): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\memlayout.h(13): error C2085: “v2p”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\memlayout.h(13): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\memlayout.h(14): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\memlayout.h(14): error C2085: “p2v”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\memlayout.h(14): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(4): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(5): error C2085: “inb”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(5): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(13): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(14): error C2085: “insl”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(14): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(22): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(23): error C2085: “outb”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(23): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(28): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(29): error C2085: “outw”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(29): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(34): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(35): error C2085: “outsl”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(35): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(43): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(44): error C2085: “stosb”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(44): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(52): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(53): error C2085: “stosl”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(53): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(63): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(64): error C2085: “lgdt”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(64): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(77): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(78): error C2085: “lidt”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(78): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(89): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(90): error C2085: “ltr”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(90): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(95): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(96): error C2085: “readeflags”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(96): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(103): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(104): error C2085: “loadgs”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(104): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(109): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(110): error C2085: “cli”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(110): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(115): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(116): error C2085: “sti”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(116): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(121): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(122): error C2085: “xchg”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(122): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(134): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(135): error C2085: “rcr2”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(135): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(142): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(143): error C2085: “lcr3”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(143): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\proc.h(30): error C2061: 语法错误: 标识符“asm”
+     1>z:\4\xv6_4\xv6_4\proc.h(30): error C2059: 语法错误:“;”
+     1>z:\4\xv6_4\xv6_4\proc.h(30): error C2059: 语法错误:“字符串”
+     1>z:\4\xv6_4\xv6_4\proc.h(31): error C2061: 语法错误: 标识符“asm”
+     1>z:\4\xv6_4\xv6_4\proc.h(31): error C2059: 语法错误:“;”
+     1>z:\4\xv6_4\xv6_4\proc.h(31): error C2059: 语法错误:“字符串”
+     1>z:\4\xv6_4\xv6_4\proc.c(87): warning C4013: “panic”未定义；假设外部返回 int
+     1>z:\4\xv6_4\xv6_4\proc.c(112): error C2065: “proc”: 未声明的标识符
+     1>z:\4\xv6_4\xv6_4\proc.c(112): error C2223: “->sz”的左侧必须指向结构/联合
+     1>z:\4\xv6_4\xv6_4\proc.c(114): error C2065: “proc”: 未声明的标识符
+     1>z:\4\xv6_4\xv6_4\proc.c(114): error C2223: “->pgdir”的左侧必须指向结构/联合
+     1>z:\4\xv6_4\xv6_4\proc.c(114): warning C4047: “函数”:“pde_t *”与“uint”的间接级别不同
+     1>z:\4\xv6_4\xv6_4\proc.c(114): warning C4024: “allocuvm”: 形参和实参 1 的类型不同
+     1>z:\4\xv6_4\xv6_4\proc.c(114): error C2198: “allocuvm”: 用于调用的参数太少
+     1>z:\4\xv6_4\xv6_4\proc.c(120): error C2065: “proc”: 未声明的标识符
+     1>z:\4\xv6_4\xv6_4\proc.c(120): error C2223: “->pgdir”的左侧必须指向结构/联合
+     1>z:\4\xv6_4\xv6_4\proc.c(120): warning C4047: “函数”:“pde_t *”与“uint”的间接级别不同
+     1>z:\4\xv6_4\xv6_4\proc.c(120): warning C4024: “deallocuvm”: 形参和实参 1 的类型不同
+     1>z:\4\xv6_4\xv6_4\proc.c(120): error C2198: “deallocuvm”: 用于调用的参数太少
+     1>z:\4\xv6_4\xv6_4\proc.c(126): error C2065: “proc”: 未声明的标识符
+     1>z:\4\xv6_4\xv6_4\proc.c(126): error C2223: “->sz”的左侧必须指向结构/联合
+     1>z:\4\xv6_4\xv6_4\proc.c(127): error C2065: “proc”: 未声明的标识符
+     1>z:\4\xv6_4\xv6_4\proc.c(127): warning C4047: “函数”:“proc *”与“int”的间接级别不同
+     1>z:\4\xv6_4\xv6_4\proc.c(127): warning C4024: “switchuvm”: 形参和实参 1 的类型不同
+     1>z:\4\xv6_4\xv6_4\proc.c(145): error C2065: “proc”: 未声明的标识符
+     1>z:\4\xv6_4\xv6_4\proc.c(145): error C2223: “->pgdir”的左侧必须指向结构/联合
+     1>z:\4\xv6_4\xv6_4\proc.c(145): error C2223: “->sz”的左侧必须指向结构/联合
+     1>z:\4\xv6_4\xv6_4\proc.c(145): error C2198: “copyuvm”: 用于调用的参数太少
+     1>z:\4\xv6_4\xv6_4\proc.c(151): error C2065: “proc”: 未声明的标识符
+     1>z:\4\xv6_4\xv6_4\proc.c(151): error C2223: “->sz”的左侧必须指向结构/联合
+     1>z:\4\xv6_4\xv6_4\proc.c(152): error C2065: “proc”: 未声明的标识符
+     1>z:\4\xv6_4\xv6_4\proc.c(152): warning C4047: “=”:“proc *”与“int”的间接级别不同
+     1>z:\4\xv6_4\xv6_4\proc.c(153): error C2065: “proc”: 未声明的标识符
+     1>z:\4\xv6_4\xv6_4\proc.c(153): error C2223: “->tf”的左侧必须指向结构/联合
+     1>z:\4\xv6_4\xv6_4\proc.c(159): error C2065: “proc”: 未声明的标识符
+     1>z:\4\xv6_4\xv6_4\proc.c(159): error C2223: “->ofile”的左侧必须指向结构/联合
+     1>z:\4\xv6_4\xv6_4\proc.c(160): error C2065: “proc”: 未声明的标识符
+     1>z:\4\xv6_4\xv6_4\proc.c(160): error C2223: “->ofile”的左侧必须指向结构/联合
+     1>z:\4\xv6_4\xv6_4\proc.c(160): error C2198: “filedup”: 用于调用的参数太少
+     1>z:\4\xv6_4\xv6_4\proc.c(161): error C2065: “proc”: 未声明的标识符
+     1>z:\4\xv6_4\xv6_4\proc.c(161): error C2223: “->cwd”的左侧必须指向结构/联合
+     1>z:\4\xv6_4\xv6_4\proc.c(161): error C2198: “idup”: 用于调用的参数太少
+     1>z:\4\xv6_4\xv6_4\proc.c(163): error C2065: “proc”: 未声明的标识符
+     1>z:\4\xv6_4\xv6_4\proc.c(163): error C2223: “->name”的左侧必须指向结构/联合
+     1>z:\4\xv6_4\xv6_4\proc.c(163): error C2198: “safestrcpy”: 用于调用的参数太少
+     1>z:\4\xv6_4\xv6_4\proc.c(184): error C2065: “proc”: 未声明的标识符
+     1>z:\4\xv6_4\xv6_4\proc.c(184): fatal error C1003: 错误计数超过 100；正在停止编译
+         printf.c
+     1>z:\4\xv6_4\xv6_4\user.h(6): error C2061: 语法错误: 标识符“__attribute__”
+     1>z:\4\xv6_4\xv6_4\user.h(6): error C2059: 语法错误:“;”
+         pipe.c
+     1>z:\4\xv6_4\xv6_4\defs.h(22): error C2061: 语法错误: 标识符“__attribute__”
+     1>z:\4\xv6_4\xv6_4\defs.h(22): error C2059: 语法错误:“;”
+     1>z:\4\xv6_4\xv6_4\defs.h(22): error C2182: “noreturn”: 非法使用“void”类型
+     1>z:\4\xv6_4\xv6_4\defs.h(114): error C2061: 语法错误: 标识符“__attribute__”
+     1>z:\4\xv6_4\xv6_4\defs.h(114): error C2059: 语法错误:“;”
+     1>z:\4\xv6_4\xv6_4\defs.h(114): error C2182: “noreturn”: 非法使用“void”类型
+     1>z:\4\xv6_4\xv6_4\proc.h(30): error C2061: 语法错误: 标识符“asm”
+     1>z:\4\xv6_4\xv6_4\proc.h(30): error C2059: 语法错误:“;”
+     1>z:\4\xv6_4\xv6_4\proc.h(30): error C2059: 语法错误:“字符串”
+     1>z:\4\xv6_4\xv6_4\proc.h(31): error C2061: 语法错误: 标识符“asm”
+     1>z:\4\xv6_4\xv6_4\proc.h(31): error C2059: 语法错误:“;”
+     1>z:\4\xv6_4\xv6_4\proc.h(31): error C2059: 语法错误:“字符串”
+     1>z:\4\xv6_4\xv6_4\pipe.c(85): error C2065: “proc”: 未声明的标识符
+     1>z:\4\xv6_4\xv6_4\pipe.c(85): error C2223: “->killed”的左侧必须指向结构/联合
+     1>z:\4\xv6_4\xv6_4\pipe.c(106): error C2065: “proc”: 未声明的标识符
+     1>z:\4\xv6_4\xv6_4\pipe.c(106): error C2223: “->killed”的左侧必须指向结构/联合
+         正在生成代码...
+         正在编译...
+         picirq.c
+     1>z:\4\xv6_4\xv6_4\x86.h(4): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(5): error C2085: “inb”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(5): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(13): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(14): error C2085: “insl”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(14): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(22): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(23): error C2085: “outb”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(23): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(28): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(29): error C2085: “outw”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(29): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(34): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(35): error C2085: “outsl”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(35): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(43): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(44): error C2085: “stosb”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(44): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(52): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(53): error C2085: “stosl”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(53): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(63): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(64): error C2085: “lgdt”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(64): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(77): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(78): error C2085: “lidt”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(78): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(89): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(90): error C2085: “ltr”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(90): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(95): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(96): error C2085: “readeflags”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(96): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(103): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(104): error C2085: “loadgs”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(104): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(109): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(110): error C2085: “cli”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(110): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(115): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(116): error C2085: “sti”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(116): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(121): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(122): error C2085: “xchg”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(122): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(134): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(135): error C2085: “rcr2”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(135): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(142): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(143): error C2085: “lcr3”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(143): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\picirq.c(21): warning C4013: “outb”未定义；假设外部返回 int
+         mp.c
+     1>z:\4\xv6_4\xv6_4\defs.h(22): error C2061: 语法错误: 标识符“__attribute__”
+     1>z:\4\xv6_4\xv6_4\defs.h(22): error C2059: 语法错误:“;”
+     1>z:\4\xv6_4\xv6_4\defs.h(22): error C2182: “noreturn”: 非法使用“void”类型
+     1>z:\4\xv6_4\xv6_4\defs.h(114): error C2061: 语法错误: 标识符“__attribute__”
+     1>z:\4\xv6_4\xv6_4\defs.h(114): error C2059: 语法错误:“;”
+     1>z:\4\xv6_4\xv6_4\defs.h(114): error C2182: “noreturn”: 非法使用“void”类型
+     1>z:\4\xv6_4\xv6_4\memlayout.h(13): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\memlayout.h(13): error C2085: “v2p”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\memlayout.h(13): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\memlayout.h(14): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\memlayout.h(14): error C2085: “p2v”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\memlayout.h(14): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(4): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(5): error C2085: “inb”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(5): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(13): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(14): error C2085: “insl”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(14): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(22): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(23): error C2085: “outb”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(23): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(28): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(29): error C2085: “outw”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(29): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(34): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(35): error C2085: “outsl”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(35): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(43): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(44): error C2085: “stosb”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(44): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(52): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(53): error C2085: “stosl”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(53): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(63): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(64): error C2085: “lgdt”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(64): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(77): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(78): error C2085: “lidt”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(78): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(89): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(90): error C2085: “ltr”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(90): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(95): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(96): error C2085: “readeflags”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(96): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(103): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(104): error C2085: “loadgs”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(104): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(109): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(110): error C2085: “cli”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(110): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(115): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(116): error C2085: “sti”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(116): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(121): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(122): error C2085: “xchg”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(122): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(134): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(135): error C2085: “rcr2”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(135): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(142): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(143): error C2085: “lcr3”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(143): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\proc.h(30): error C2061: 语法错误: 标识符“asm”
+     1>z:\4\xv6_4\xv6_4\proc.h(30): error C2059: 语法错误:“;”
+     1>z:\4\xv6_4\xv6_4\proc.h(30): error C2059: 语法错误:“字符串”
+     1>z:\4\xv6_4\xv6_4\proc.h(31): error C2061: 语法错误: 标识符“asm”
+     1>z:\4\xv6_4\xv6_4\proc.h(31): error C2059: 语法错误:“;”
+     1>z:\4\xv6_4\xv6_4\proc.h(31): error C2059: 语法错误:“字符串”
+     1>z:\4\xv6_4\xv6_4\mp.c(43): warning C4013: “p2v”未定义；假设外部返回 int
+     1>z:\4\xv6_4\xv6_4\mp.c(43): warning C4047: “=”:“uchar *”与“int”的间接级别不同
+     1>z:\4\xv6_4\xv6_4\mp.c(63): error C2036: “void *”: 未知的大小
+     1>z:\4\xv6_4\xv6_4\mp.c(153): warning C4013: “outb”未定义；假设外部返回 int
+     1>z:\4\xv6_4\xv6_4\mp.c(154): warning C4013: “inb”未定义；假设外部返回 int
+         mkfs.c
+     1>z:\4\xv6_4\xv6_4\mkfs.c(2): fatal error C1083: 无法打开包括文件:“unistd.h”: No such file or directory
+         mkdir.c
+     1>z:\4\xv6_4\xv6_4\user.h(6): error C2061: 语法错误: 标识符“__attribute__”
+     1>z:\4\xv6_4\xv6_4\user.h(6): error C2059: 语法错误:“;”
+     1>z:\4\xv6_4\xv6_4\mkdir.c(12): warning C4013: “exit”未定义；假设外部返回 int
+         memide.c
+     1>z:\4\xv6_4\xv6_4\defs.h(22): error C2061: 语法错误: 标识符“__attribute__”
+     1>z:\4\xv6_4\xv6_4\defs.h(22): error C2059: 语法错误:“;”
+     1>z:\4\xv6_4\xv6_4\defs.h(22): error C2182: “noreturn”: 非法使用“void”类型
+     1>z:\4\xv6_4\xv6_4\defs.h(114): error C2061: 语法错误: 标识符“__attribute__”
+     1>z:\4\xv6_4\xv6_4\defs.h(114): error C2059: 语法错误:“;”
+     1>z:\4\xv6_4\xv6_4\defs.h(114): error C2182: “noreturn”: 非法使用“void”类型
+     1>z:\4\xv6_4\xv6_4\proc.h(30): error C2061: 语法错误: 标识符“asm”
+     1>z:\4\xv6_4\xv6_4\proc.h(30): error C2059: 语法错误:“;”
+     1>z:\4\xv6_4\xv6_4\proc.h(30): error C2059: 语法错误:“字符串”
+     1>z:\4\xv6_4\xv6_4\proc.h(31): error C2061: 语法错误: 标识符“asm”
+     1>z:\4\xv6_4\xv6_4\proc.h(31): error C2059: 语法错误:“;”
+     1>z:\4\xv6_4\xv6_4\proc.h(31): error C2059: 语法错误:“字符串”
+     1>z:\4\xv6_4\xv6_4\x86.h(4): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(5): error C2085: “inb”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(5): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(13): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(14): error C2085: “insl”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(14): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(22): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(23): error C2085: “outb”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(23): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(28): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(29): error C2085: “outw”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(29): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(34): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(35): error C2085: “outsl”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(35): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(43): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(44): error C2085: “stosb”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(44): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(52): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(53): error C2085: “stosl”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(53): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(63): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(64): error C2085: “lgdt”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(64): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(77): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(78): error C2085: “lidt”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(78): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(89): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(90): error C2085: “ltr”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(90): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(95): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(96): error C2085: “readeflags”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(96): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(103): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(104): error C2085: “loadgs”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(104): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(109): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(110): error C2085: “cli”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(110): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(115): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(116): error C2085: “sti”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(116): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(121): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(122): error C2085: “xchg”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(122): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(134): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(135): error C2085: “rcr2”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(135): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(142): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(143): error C2085: “lcr3”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(143): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\memide.c(42): warning C4013: “panic”未定义；假设外部返回 int
+     1>z:\4\xv6_4\xv6_4\memide.c(47): warning C4018: “>=”: 有符号/无符号不匹配
+         main.c
+     1>z:\4\xv6_4\xv6_4\defs.h(22): error C2061: 语法错误: 标识符“__attribute__”
+     1>z:\4\xv6_4\xv6_4\defs.h(22): error C2059: 语法错误:“;”
+     1>z:\4\xv6_4\xv6_4\defs.h(22): error C2182: “noreturn”: 非法使用“void”类型
+     1>z:\4\xv6_4\xv6_4\defs.h(114): error C2061: 语法错误: 标识符“__attribute__”
+     1>z:\4\xv6_4\xv6_4\defs.h(114): error C2059: 语法错误:“;”
+     1>z:\4\xv6_4\xv6_4\defs.h(114): error C2182: “noreturn”: 非法使用“void”类型
+     1>z:\4\xv6_4\xv6_4\memlayout.h(13): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\memlayout.h(13): error C2085: “v2p”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\memlayout.h(13): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\memlayout.h(14): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\memlayout.h(14): error C2085: “p2v”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\memlayout.h(14): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\proc.h(30): error C2061: 语法错误: 标识符“asm”
+     1>z:\4\xv6_4\xv6_4\proc.h(30): error C2059: 语法错误:“;”
+     1>z:\4\xv6_4\xv6_4\proc.h(30): error C2059: 语法错误:“字符串”
+     1>z:\4\xv6_4\xv6_4\proc.h(31): error C2061: 语法错误: 标识符“asm”
+     1>z:\4\xv6_4\xv6_4\proc.h(31): error C2059: 语法错误:“;”
+     1>z:\4\xv6_4\xv6_4\proc.h(31): error C2059: 语法错误:“字符串”
+     1>z:\4\xv6_4\xv6_4\x86.h(4): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(5): error C2085: “inb”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(5): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(13): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(14): error C2085: “insl”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(14): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(22): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(23): error C2085: “outb”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(23): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(28): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(29): error C2085: “outw”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(29): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(34): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(35): error C2085: “outsl”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(35): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(43): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(44): error C2085: “stosb”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(44): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(52): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(53): error C2085: “stosl”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(53): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(63): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(64): error C2085: “lgdt”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(64): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(77): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(78): error C2085: “lidt”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(78): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(89): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(90): error C2085: “ltr”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(90): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(95): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(96): error C2085: “readeflags”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(96): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(103): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(104): error C2085: “loadgs”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(104): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(109): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(110): error C2085: “cli”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(110): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(115): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(116): error C2085: “sti”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(116): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(121): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(122): error C2085: “xchg”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(122): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(134): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(135): error C2085: “rcr2”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(135): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(142): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(143): error C2085: “lcr3”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(143): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\main.c(10): error C2061: 语法错误: 标识符“__attribute__”
+     1>z:\4\xv6_4\xv6_4\main.c(10): error C2059: 语法错误:“;”
+     1>z:\4\xv6_4\xv6_4\main.c(10): error C2182: “noreturn”: 非法使用“void”类型
+     1>z:\4\xv6_4\xv6_4\main.c(10): error C2370: “noreturn”: 重定义；不同的存储类
+                 z:\4\xv6_4\xv6_4\defs.h(22) : 参见“noreturn”的声明
+     1>z:\4\xv6_4\xv6_4\main.c(20): error C2036: “void *”: 未知的大小
+     1>z:\4\xv6_4\xv6_4\main.c(25): error C2065: “cpu”: 未声明的标识符
+     1>z:\4\xv6_4\xv6_4\main.c(25): error C2223: “->id”的左侧必须指向结构/联合
+     1>z:\4\xv6_4\xv6_4\main.c(39): error C2036: “void *”: 未知的大小
+     1>z:\4\xv6_4\xv6_4\main.c(42): warning C4013: “mpmain”未定义；假设外部返回 int
+     1>z:\4\xv6_4\xv6_4\main.c(58): error C2371: “mpmain”: 重定义；不同的基类型
+     1>z:\4\xv6_4\xv6_4\main.c(59): error C2065: “cpu”: 未声明的标识符
+     1>z:\4\xv6_4\xv6_4\main.c(59): error C2223: “->id”的左侧必须指向结构/联合
+     1>z:\4\xv6_4\xv6_4\main.c(61): warning C4013: “xchg”未定义；假设外部返回 int
+     1>z:\4\xv6_4\xv6_4\main.c(61): error C2065: “cpu”: 未声明的标识符
+     1>z:\4\xv6_4\xv6_4\main.c(61): error C2223: “->started”的左侧必须指向结构/联合
+     1>z:\4\xv6_4\xv6_4\main.c(62): warning C4013: “scheduler”未定义；假设外部返回 int
+     1>z:\4\xv6_4\xv6_4\main.c(79): warning C4013: “p2v”未定义；假设外部返回 int
+     1>z:\4\xv6_4\xv6_4\main.c(79): warning C4047: “=”:“uchar *”与“int”的间接级别不同
+     1>z:\4\xv6_4\xv6_4\main.c(92): warning C4013: “v2p”未定义；假设外部返回 int
+     1>z:\4\xv6_4\xv6_4\main.c(106): error C2143: 语法错误 : 缺少“)”(在“(”的前面)
+     1>z:\4\xv6_4\xv6_4\main.c(106): error C2091: 函数返回函数
+     1>z:\4\xv6_4\xv6_4\main.c(106): error C2143: 语法错误 : 缺少“)”(在“常量”的前面)
+     1>z:\4\xv6_4\xv6_4\main.c(106): error C2143: 语法错误 : 缺少“{”(在“常量”的前面)
+     1>z:\4\xv6_4\xv6_4\main.c(106): error C2059: 语法错误:“<未知>”
+     1>z:\4\xv6_4\xv6_4\main.c(106): error C2059: 语法错误:“)”
+         ls.c
+     1>z:\4\xv6_4\xv6_4\user.h(6): error C2061: 语法错误: 标识符“__attribute__”
+     1>z:\4\xv6_4\xv6_4\user.h(6): error C2059: 语法错误:“;”
+     1>z:\4\xv6_4\xv6_4\ls.c(80): warning C4013: “exit”未定义；假设外部返回 int
+         lpatest.c
+     1>z:\4\xv6_4\xv6_4\user.h(6): error C2061: 语法错误: 标识符“__attribute__”
+     1>z:\4\xv6_4\xv6_4\user.h(6): error C2059: 语法错误:“;”
+     1>z:\4\xv6_4\xv6_4\lpatest.c(31): warning C4013: “exit”未定义；假设外部返回 int
+         log.c
+     1>z:\4\xv6_4\xv6_4\defs.h(22): error C2061: 语法错误: 标识符“__attribute__”
+     1>z:\4\xv6_4\xv6_4\defs.h(22): error C2059: 语法错误:“;”
+     1>z:\4\xv6_4\xv6_4\defs.h(22): error C2182: “noreturn”: 非法使用“void”类型
+     1>z:\4\xv6_4\xv6_4\defs.h(114): error C2061: 语法错误: 标识符“__attribute__”
+     1>z:\4\xv6_4\xv6_4\defs.h(114): error C2059: 语法错误:“;”
+     1>z:\4\xv6_4\xv6_4\defs.h(114): error C2182: “noreturn”: 非法使用“void”类型
+     1>z:\4\xv6_4\xv6_4\log.c(56): warning C4013: “panic”未定义；假设外部返回 int
+     1>z:\4\xv6_4\xv6_4\log.c(58): error C2143: 语法错误 : 缺少“;”(在“类型”的前面)
+     1>z:\4\xv6_4\xv6_4\log.c(60): error C2065: “sb”: 未声明的标识符
+     1>z:\4\xv6_4\xv6_4\log.c(60): warning C4133: “函数”: 从“int *”到“superblock *”的类型不兼容
+     1>z:\4\xv6_4\xv6_4\log.c(61): error C2065: “sb”: 未声明的标识符
+     1>z:\4\xv6_4\xv6_4\log.c(61): error C2224: “.size”的左侧必须具有结构/联合类型
+     1>z:\4\xv6_4\xv6_4\log.c(61): error C2224: “.nlog”的左侧必须具有结构/联合类型
+     1>z:\4\xv6_4\xv6_4\log.c(62): error C2065: “sb”: 未声明的标识符
+     1>z:\4\xv6_4\xv6_4\log.c(62): error C2224: “.nlog”的左侧必须具有结构/联合类型
+         ln.c
+     1>z:\4\xv6_4\xv6_4\user.h(6): error C2061: 语法错误: 标识符“__attribute__”
+     1>z:\4\xv6_4\xv6_4\user.h(6): error C2059: 语法错误:“;”
+     1>z:\4\xv6_4\xv6_4\ln.c(10): warning C4013: “exit”未定义；假设外部返回 int
+         lapic.c
+     1>z:\4\xv6_4\xv6_4\defs.h(22): error C2061: 语法错误: 标识符“__attribute__”
+     1>z:\4\xv6_4\xv6_4\defs.h(22): error C2059: 语法错误:“;”
+     1>z:\4\xv6_4\xv6_4\defs.h(22): error C2182: “noreturn”: 非法使用“void”类型
+     1>z:\4\xv6_4\xv6_4\defs.h(114): error C2061: 语法错误: 标识符“__attribute__”
+     1>z:\4\xv6_4\xv6_4\defs.h(114): error C2059: 语法错误:“;”
+     1>z:\4\xv6_4\xv6_4\defs.h(114): error C2182: “noreturn”: 非法使用“void”类型
+     1>z:\4\xv6_4\xv6_4\memlayout.h(13): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\memlayout.h(13): error C2085: “v2p”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\memlayout.h(13): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\memlayout.h(14): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\memlayout.h(14): error C2085: “p2v”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\memlayout.h(14): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(4): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(5): error C2085: “inb”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(5): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(13): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(14): error C2085: “insl”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(14): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(22): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(23): error C2085: “outb”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(23): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(28): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(29): error C2085: “outw”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(29): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(34): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(35): error C2085: “outsl”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(35): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(43): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(44): error C2085: “stosb”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(44): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(52): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(53): error C2085: “stosl”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(53): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(63): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(64): error C2085: “lgdt”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(64): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(77): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(78): error C2085: “lidt”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(78): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(89): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(90): error C2085: “ltr”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(90): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(95): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(96): error C2085: “readeflags”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(96): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(103): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(104): error C2085: “loadgs”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(104): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(109): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(110): error C2085: “cli”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(110): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(115): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(116): error C2085: “sti”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(116): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(121): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(122): error C2085: “xchg”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(122): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(134): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(135): error C2085: “rcr2”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(135): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(142): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(143): error C2085: “lcr3”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(143): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\lapic.c(107): warning C4013: “readeflags”未定义；假设外部返回 int
+     1>z:\4\xv6_4\xv6_4\lapic.c(111): warning C4013: “__builtin_return_address”未定义；假设外部返回 int
+     1>z:\4\xv6_4\xv6_4\lapic.c(148): warning C4013: “outb”未定义；假设外部返回 int
+     1>z:\4\xv6_4\xv6_4\lapic.c(150): error C2036: “void *”: 未知的大小
+     1>z:\4\xv6_4\xv6_4\lapic.c(190): warning C4013: “inb”未定义；假设外部返回 int
+         kill.c
+     1>z:\4\xv6_4\xv6_4\user.h(6): error C2061: 语法错误: 标识符“__attribute__”
+     1>z:\4\xv6_4\xv6_4\user.h(6): error C2059: 语法错误:“;”
+     1>z:\4\xv6_4\xv6_4\kill.c(12): warning C4013: “exit”未定义；假设外部返回 int
+         kbd.c
+     1>z:\4\xv6_4\xv6_4\x86.h(4): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(5): error C2085: “inb”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(5): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(13): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(14): error C2085: “insl”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(14): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(22): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(23): error C2085: “outb”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(23): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(28): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(29): error C2085: “outw”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(29): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(34): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(35): error C2085: “outsl”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(35): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(43): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(44): error C2085: “stosb”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(44): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(52): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(53): error C2085: “stosl”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(53): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(63): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(64): error C2085: “lgdt”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(64): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(77): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(78): error C2085: “lidt”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(78): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(89): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(90): error C2085: “ltr”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(90): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(95): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(96): error C2085: “readeflags”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(96): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(103): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(104): error C2085: “loadgs”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(104): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(109): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(110): error C2085: “cli”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(110): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(115): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(116): error C2085: “sti”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(116): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(121): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(122): error C2085: “xchg”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(122): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(134): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(135): error C2085: “rcr2”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(135): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(142): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(143): error C2085: “lcr3”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(143): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\defs.h(22): error C2061: 语法错误: 标识符“__attribute__”
+     1>z:\4\xv6_4\xv6_4\defs.h(22): error C2059: 语法错误:“;”
+     1>z:\4\xv6_4\xv6_4\defs.h(22): error C2182: “noreturn”: 非法使用“void”类型
+     1>z:\4\xv6_4\xv6_4\defs.h(114): error C2061: 语法错误: 标识符“__attribute__”
+     1>z:\4\xv6_4\xv6_4\defs.h(114): error C2059: 语法错误:“;”
+     1>z:\4\xv6_4\xv6_4\defs.h(114): error C2182: “noreturn”: 非法使用“void”类型
+     1>z:\4\xv6_4\xv6_4\kbd.h(36): error C2059: 语法错误:“[”
+     1>z:\4\xv6_4\xv6_4\kbd.h(46): error C2059: 语法错误:“[”
+     1>z:\4\xv6_4\xv6_4\kbd.h(64): error C2059: 语法错误:“[”
+     1>z:\4\xv6_4\xv6_4\kbd.h(86): error C2059: 语法错误:“[”
+     1>z:\4\xv6_4\xv6_4\kbd.h(104): error C2059: 语法错误:“[”
+     1>z:\4\xv6_4\xv6_4\kbd.c(15): warning C4013: “inb”未定义；假设外部返回 int
+         kalloc.c
+     1>z:\4\xv6_4\xv6_4\defs.h(22): error C2061: 语法错误: 标识符“__attribute__”
+     1>z:\4\xv6_4\xv6_4\defs.h(22): error C2059: 语法错误:“;”
+     1>z:\4\xv6_4\xv6_4\defs.h(22): error C2182: “noreturn”: 非法使用“void”类型
+     1>z:\4\xv6_4\xv6_4\defs.h(114): error C2061: 语法错误: 标识符“__attribute__”
+     1>z:\4\xv6_4\xv6_4\defs.h(114): error C2059: 语法错误:“;”
+     1>z:\4\xv6_4\xv6_4\defs.h(114): error C2182: “noreturn”: 非法使用“void”类型
+     1>z:\4\xv6_4\xv6_4\memlayout.h(13): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\memlayout.h(13): error C2085: “v2p”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\memlayout.h(13): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\memlayout.h(14): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\memlayout.h(14): error C2085: “p2v”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\memlayout.h(14): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\kalloc.c(67): warning C4013: “v2p”未定义；假设外部返回 int
+     1>z:\4\xv6_4\xv6_4\kalloc.c(68): warning C4013: “panic”未定义；假设外部返回 int
+         ioapic.c
+     1>z:\4\xv6_4\xv6_4\defs.h(22): error C2061: 语法错误: 标识符“__attribute__”
+     1>z:\4\xv6_4\xv6_4\defs.h(22): error C2059: 语法错误:“;”
+     1>z:\4\xv6_4\xv6_4\defs.h(22): error C2182: “noreturn”: 非法使用“void”类型
+     1>z:\4\xv6_4\xv6_4\defs.h(114): error C2061: 语法错误: 标识符“__attribute__”
+     1>z:\4\xv6_4\xv6_4\defs.h(114): error C2059: 语法错误:“;”
+     1>z:\4\xv6_4\xv6_4\defs.h(114): error C2182: “noreturn”: 非法使用“void”类型
+         init.c
+     1>z:\4\xv6_4\xv6_4\user.h(6): error C2061: 语法错误: 标识符“__attribute__”
+     1>z:\4\xv6_4\xv6_4\user.h(6): error C2059: 语法错误:“;”
+     1>z:\4\xv6_4\xv6_4\init.c(27): warning C4013: “exit”未定义；假设外部返回 int
+         ide.c
+     1>z:\4\xv6_4\xv6_4\defs.h(22): error C2061: 语法错误: 标识符“__attribute__”
+     1>z:\4\xv6_4\xv6_4\defs.h(22): error C2059: 语法错误:“;”
+     1>z:\4\xv6_4\xv6_4\defs.h(22): error C2182: “noreturn”: 非法使用“void”类型
+     1>z:\4\xv6_4\xv6_4\defs.h(114): error C2061: 语法错误: 标识符“__attribute__”
+     1>z:\4\xv6_4\xv6_4\defs.h(114): error C2059: 语法错误:“;”
+     1>z:\4\xv6_4\xv6_4\defs.h(114): error C2182: “noreturn”: 非法使用“void”类型
+     1>z:\4\xv6_4\xv6_4\memlayout.h(13): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\memlayout.h(13): error C2085: “v2p”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\memlayout.h(13): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\memlayout.h(14): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\memlayout.h(14): error C2085: “p2v”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\memlayout.h(14): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\proc.h(30): error C2061: 语法错误: 标识符“asm”
+     1>z:\4\xv6_4\xv6_4\proc.h(30): error C2059: 语法错误:“;”
+     1>z:\4\xv6_4\xv6_4\proc.h(30): error C2059: 语法错误:“字符串”
+     1>z:\4\xv6_4\xv6_4\proc.h(31): error C2061: 语法错误: 标识符“asm”
+     1>z:\4\xv6_4\xv6_4\proc.h(31): error C2059: 语法错误:“;”
+     1>z:\4\xv6_4\xv6_4\proc.h(31): error C2059: 语法错误:“字符串”
+     1>z:\4\xv6_4\xv6_4\x86.h(4): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(5): error C2085: “inb”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(5): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(13): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(14): error C2085: “insl”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(14): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(22): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(23): error C2085: “outb”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(23): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(28): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(29): error C2085: “outw”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(29): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(34): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(35): error C2085: “outsl”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(35): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(43): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(44): error C2085: “stosb”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(44): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(52): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(53): error C2085: “stosl”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(53): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(63): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(64): error C2085: “lgdt”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(64): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(77): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(78): error C2085: “lidt”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(78): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(89): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(90): error C2085: “ltr”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(90): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(95): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(96): error C2085: “readeflags”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(96): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(103): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(104): error C2085: “loadgs”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(104): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(109): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(110): error C2085: “cli”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(110): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(115): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(116): error C2085: “sti”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(116): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(121): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(122): error C2085: “xchg”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(122): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(134): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(135): error C2085: “rcr2”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(135): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(142): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(143): error C2085: “lcr3”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(143): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\ide.c(38): warning C4013: “inb”未定义；假设外部返回 int
+     1>z:\4\xv6_4\xv6_4\ide.c(56): warning C4013: “outb”未定义；假设外部返回 int
+     1>z:\4\xv6_4\xv6_4\ide.c(73): warning C4013: “panic”未定义；假设外部返回 int
+     1>z:\4\xv6_4\xv6_4\ide.c(84): warning C4013: “outsl”未定义；假设外部返回 int
+     1>z:\4\xv6_4\xv6_4\ide.c(107): warning C4013: “insl”未定义；假设外部返回 int
+         grep.c
+     1>z:\4\xv6_4\xv6_4\user.h(6): error C2061: 语法错误: 标识符“__attribute__”
+     1>z:\4\xv6_4\xv6_4\user.h(6): error C2059: 语法错误:“;”
+     1>z:\4\xv6_4\xv6_4\grep.c(45): warning C4013: “exit”未定义；假设外部返回 int
+         fs.c
+     1>z:\4\xv6_4\xv6_4\defs.h(22): error C2061: 语法错误: 标识符“__attribute__”
+     1>z:\4\xv6_4\xv6_4\defs.h(22): error C2059: 语法错误:“;”
+     1>z:\4\xv6_4\xv6_4\defs.h(22): error C2182: “noreturn”: 非法使用“void”类型
+     1>z:\4\xv6_4\xv6_4\defs.h(114): error C2061: 语法错误: 标识符“__attribute__”
+     1>z:\4\xv6_4\xv6_4\defs.h(114): error C2059: 语法错误:“;”
+     1>z:\4\xv6_4\xv6_4\defs.h(114): error C2182: “noreturn”: 非法使用“void”类型
+     1>z:\4\xv6_4\xv6_4\proc.h(30): error C2061: 语法错误: 标识符“asm”
+     1>z:\4\xv6_4\xv6_4\proc.h(30): error C2059: 语法错误:“;”
+     1>z:\4\xv6_4\xv6_4\proc.h(30): error C2059: 语法错误:“字符串”
+     1>z:\4\xv6_4\xv6_4\proc.h(31): error C2061: 语法错误: 标识符“asm”
+     1>z:\4\xv6_4\xv6_4\proc.h(31): error C2059: 语法错误:“;”
+     1>z:\4\xv6_4\xv6_4\proc.h(31): error C2059: 语法错误:“字符串”
+     1>z:\4\xv6_4\xv6_4\fs.c(61): warning C4018: “<”: 有符号/无符号不匹配
+     1>z:\4\xv6_4\xv6_4\fs.c(63): warning C4018: “<”: 有符号/无符号不匹配
+     1>z:\4\xv6_4\xv6_4\fs.c(75): warning C4013: “panic”未定义；假设外部返回 int
+     1>z:\4\xv6_4\xv6_4\fs.c(185): warning C4018: “<”: 有符号/无符号不匹配
+     1>z:\4\xv6_4\xv6_4\fs.c(548): warning C4018: “<”: 有符号/无符号不匹配
+     1>z:\4\xv6_4\xv6_4\fs.c(615): error C2065: “proc”: 未声明的标识符
+     1>z:\4\xv6_4\xv6_4\fs.c(615): error C2223: “->cwd”的左侧必须指向结构/联合
+     1>z:\4\xv6_4\xv6_4\fs.c(615): error C2198: “idup”: 用于调用的参数太少
+         file.c
+     1>z:\4\xv6_4\xv6_4\defs.h(22): error C2061: 语法错误: 标识符“__attribute__”
+     1>z:\4\xv6_4\xv6_4\defs.h(22): error C2059: 语法错误:“;”
+     1>z:\4\xv6_4\xv6_4\defs.h(22): error C2182: “noreturn”: 非法使用“void”类型
+     1>z:\4\xv6_4\xv6_4\defs.h(114): error C2061: 语法错误: 标识符“__attribute__”
+     1>z:\4\xv6_4\xv6_4\defs.h(114): error C2059: 语法错误:“;”
+     1>z:\4\xv6_4\xv6_4\defs.h(114): error C2182: “noreturn”: 非法使用“void”类型
+     1>z:\4\xv6_4\xv6_4\file.c(48): warning C4013: “panic”未定义；假设外部返回 int
+         正在生成代码...
+         正在编译...
+         exec.c
+     1>z:\4\xv6_4\xv6_4\memlayout.h(13): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\memlayout.h(13): error C2085: “v2p”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\memlayout.h(13): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\memlayout.h(14): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\memlayout.h(14): error C2085: “p2v”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\memlayout.h(14): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\proc.h(30): error C2061: 语法错误: 标识符“asm”
+     1>z:\4\xv6_4\xv6_4\proc.h(30): error C2059: 语法错误:“;”
+     1>z:\4\xv6_4\xv6_4\proc.h(30): error C2059: 语法错误:“字符串”
+     1>z:\4\xv6_4\xv6_4\proc.h(31): error C2061: 语法错误: 标识符“asm”
+     1>z:\4\xv6_4\xv6_4\proc.h(31): error C2059: 语法错误:“;”
+     1>z:\4\xv6_4\xv6_4\proc.h(31): error C2059: 语法错误:“字符串”
+     1>z:\4\xv6_4\xv6_4\defs.h(22): error C2061: 语法错误: 标识符“__attribute__”
+     1>z:\4\xv6_4\xv6_4\defs.h(22): error C2059: 语法错误:“;”
+     1>z:\4\xv6_4\xv6_4\defs.h(22): error C2182: “noreturn”: 非法使用“void”类型
+     1>z:\4\xv6_4\xv6_4\defs.h(114): error C2061: 语法错误: 标识符“__attribute__”
+     1>z:\4\xv6_4\xv6_4\defs.h(114): error C2059: 语法错误:“;”
+     1>z:\4\xv6_4\xv6_4\defs.h(114): error C2182: “noreturn”: 非法使用“void”类型
+     1>z:\4\xv6_4\xv6_4\x86.h(4): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(5): error C2085: “inb”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(5): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(13): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(14): error C2085: “insl”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(14): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(22): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(23): error C2085: “outb”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(23): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(28): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(29): error C2085: “outw”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(29): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(34): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(35): error C2085: “outsl”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(35): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(43): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(44): error C2085: “stosb”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(44): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(52): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(53): error C2085: “stosl”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(53): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(63): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(64): error C2085: “lgdt”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(64): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(77): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(78): error C2085: “lidt”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(78): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(89): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(90): error C2085: “ltr”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(90): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(95): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(96): error C2085: “readeflags”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(96): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(103): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(104): error C2085: “loadgs”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(104): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(109): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(110): error C2085: “cli”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(110): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(115): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(116): error C2085: “sti”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(116): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(121): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(122): error C2085: “xchg”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(122): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(134): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(135): error C2085: “rcr2”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(135): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(142): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(143): error C2085: “lcr3”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(143): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\exec.c(87): error C2065: “proc”: 未声明的标识符
+     1>z:\4\xv6_4\xv6_4\exec.c(87): error C2223: “->name”的左侧必须指向结构/联合
+     1>z:\4\xv6_4\xv6_4\exec.c(87): error C2198: “safestrcpy”: 用于调用的参数太少
+     1>z:\4\xv6_4\xv6_4\exec.c(90): error C2065: “proc”: 未声明的标识符
+     1>z:\4\xv6_4\xv6_4\exec.c(90): error C2223: “->pgdir”的左侧必须指向结构/联合
+     1>z:\4\xv6_4\xv6_4\exec.c(91): error C2065: “proc”: 未声明的标识符
+     1>z:\4\xv6_4\xv6_4\exec.c(91): error C2223: “->pgdir”的左侧必须指向结构/联合
+     1>z:\4\xv6_4\xv6_4\exec.c(92): error C2065: “proc”: 未声明的标识符
+     1>z:\4\xv6_4\xv6_4\exec.c(92): error C2223: “->sz”的左侧必须指向结构/联合
+     1>z:\4\xv6_4\xv6_4\exec.c(93): error C2065: “proc”: 未声明的标识符
+     1>z:\4\xv6_4\xv6_4\exec.c(93): error C2223: “->tf”的左侧必须指向结构/联合
+     1>z:\4\xv6_4\xv6_4\exec.c(94): error C2065: “proc”: 未声明的标识符
+     1>z:\4\xv6_4\xv6_4\exec.c(94): error C2223: “->tf”的左侧必须指向结构/联合
+     1>z:\4\xv6_4\xv6_4\exec.c(95): error C2065: “proc”: 未声明的标识符
+     1>z:\4\xv6_4\xv6_4\exec.c(95): warning C4047: “函数”:“proc *”与“int”的间接级别不同
+     1>z:\4\xv6_4\xv6_4\exec.c(95): warning C4024: “switchuvm”: 形参和实参 1 的类型不同
+         echo.c
+     1>z:\4\xv6_4\xv6_4\user.h(6): error C2061: 语法错误: 标识符“__attribute__”
+     1>z:\4\xv6_4\xv6_4\user.h(6): error C2059: 语法错误:“;”
+     1>z:\4\xv6_4\xv6_4\echo.c(12): warning C4013: “exit”未定义；假设外部返回 int
+         console.c
+     1>z:\4\xv6_4\xv6_4\defs.h(22): error C2061: 语法错误: 标识符“__attribute__”
+     1>z:\4\xv6_4\xv6_4\defs.h(22): error C2059: 语法错误:“;”
+     1>z:\4\xv6_4\xv6_4\defs.h(22): error C2182: “noreturn”: 非法使用“void”类型
+     1>z:\4\xv6_4\xv6_4\defs.h(114): error C2061: 语法错误: 标识符“__attribute__”
+     1>z:\4\xv6_4\xv6_4\defs.h(114): error C2059: 语法错误:“;”
+     1>z:\4\xv6_4\xv6_4\defs.h(114): error C2182: “noreturn”: 非法使用“void”类型
+     1>z:\4\xv6_4\xv6_4\memlayout.h(13): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\memlayout.h(13): error C2085: “v2p”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\memlayout.h(13): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\memlayout.h(14): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\memlayout.h(14): error C2085: “p2v”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\memlayout.h(14): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\proc.h(30): error C2061: 语法错误: 标识符“asm”
+     1>z:\4\xv6_4\xv6_4\proc.h(30): error C2059: 语法错误:“;”
+     1>z:\4\xv6_4\xv6_4\proc.h(30): error C2059: 语法错误:“字符串”
+     1>z:\4\xv6_4\xv6_4\proc.h(31): error C2061: 语法错误: 标识符“asm”
+     1>z:\4\xv6_4\xv6_4\proc.h(31): error C2059: 语法错误:“;”
+     1>z:\4\xv6_4\xv6_4\proc.h(31): error C2059: 语法错误:“字符串”
+     1>z:\4\xv6_4\xv6_4\x86.h(4): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(5): error C2085: “inb”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(5): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(13): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(14): error C2085: “insl”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(14): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(22): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(23): error C2085: “outb”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(23): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(28): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(29): error C2085: “outw”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(29): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(34): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(35): error C2085: “outsl”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(35): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(43): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(44): error C2085: “stosb”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(44): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(52): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(53): error C2085: “stosl”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(53): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(63): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(64): error C2085: “lgdt”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(64): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(77): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(78): error C2085: “lidt”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(78): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(89): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(90): error C2085: “ltr”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(90): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(95): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(96): error C2085: “readeflags”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(96): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(103): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(104): error C2085: “loadgs”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(104): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(109): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(110): error C2085: “cli”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(110): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(115): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(116): error C2085: “sti”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(116): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(121): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(122): error C2085: “xchg”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(122): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(134): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(135): error C2085: “rcr2”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(135): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(142): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(143): error C2085: “lcr3”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(143): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\console.c(65): warning C4013: “panic”未定义；假设外部返回 int
+     1>z:\4\xv6_4\xv6_4\console.c(107): error C2371: “panic”: 重定义；不同的基类型
+     1>z:\4\xv6_4\xv6_4\console.c(111): warning C4013: “cli”未定义；假设外部返回 int
+     1>z:\4\xv6_4\xv6_4\console.c(113): error C2065: “cpu”: 未声明的标识符
+     1>z:\4\xv6_4\xv6_4\console.c(113): error C2223: “->id”的左侧必须指向结构/联合
+     1>z:\4\xv6_4\xv6_4\console.c(127): error C2036: “void *”: 未知的大小
+     1>z:\4\xv6_4\xv6_4\console.c(127): error C2099: 初始值设定项不是常量
+     1>z:\4\xv6_4\xv6_4\console.c(135): warning C4013: “outb”未定义；假设外部返回 int
+     1>z:\4\xv6_4\xv6_4\console.c(136): warning C4013: “inb”未定义；假设外部返回 int
+     1>z:\4\xv6_4\xv6_4\console.c(238): error C2065: “proc”: 未声明的标识符
+     1>z:\4\xv6_4\xv6_4\console.c(238): error C2223: “->killed”的左侧必须指向结构/联合
+     1>z:\4\xv6_4\xv6_4\console.c(247): warning C4018: “<”: 有符号/无符号不匹配
+         cat.c
+     1>z:\4\xv6_4\xv6_4\user.h(6): error C2061: 语法错误: 标识符“__attribute__”
+     1>z:\4\xv6_4\xv6_4\user.h(6): error C2059: 语法错误:“;”
+     1>z:\4\xv6_4\xv6_4\cat.c(16): warning C4013: “exit”未定义；假设外部返回 int
+         bootmain.c
+     1>z:\4\xv6_4\xv6_4\x86.h(4): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(5): error C2085: “inb”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(5): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(13): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(14): error C2085: “insl”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(14): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(22): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(23): error C2085: “outb”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(23): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(28): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(29): error C2085: “outw”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(29): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(34): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(35): error C2085: “outsl”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(35): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(43): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(44): error C2085: “stosb”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(44): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(52): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(53): error C2085: “stosl”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(53): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(63): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(64): error C2085: “lgdt”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(64): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(77): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(78): error C2085: “lidt”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(78): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(89): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(90): error C2085: “ltr”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(90): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(95): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(96): error C2085: “readeflags”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(96): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(103): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(104): error C2085: “loadgs”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(104): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(109): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(110): error C2085: “cli”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(110): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(115): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(116): error C2085: “sti”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(116): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(121): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(122): error C2085: “xchg”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(122): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(134): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(135): error C2085: “rcr2”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(135): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\x86.h(142): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\x86.h(143): error C2085: “lcr3”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\x86.h(143): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\memlayout.h(13): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\memlayout.h(13): error C2085: “v2p”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\memlayout.h(13): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\memlayout.h(14): error C2054: 在“inline”之后应输入“(”
+     1>z:\4\xv6_4\xv6_4\memlayout.h(14): error C2085: “p2v”: 不在形参表中
+     1>z:\4\xv6_4\xv6_4\memlayout.h(14): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>z:\4\xv6_4\xv6_4\bootmain.c(41): warning C4013: “stosb”未定义；假设外部返回 int
+     1>z:\4\xv6_4\xv6_4\bootmain.c(54): warning C4013: “inb”未定义；假设外部返回 int
+     1>z:\4\xv6_4\xv6_4\bootmain.c(64): warning C4013: “outb”未定义；假设外部返回 int
+     1>z:\4\xv6_4\xv6_4\bootmain.c(73): warning C4013: “insl”未定义；假设外部返回 int
+         bio.c
+     1>z:\4\xv6_4\xv6_4\defs.h(22): error C2061: 语法错误: 标识符“__attribute__”
+     1>z:\4\xv6_4\xv6_4\defs.h(22): error C2059: 语法错误:“;”
+     1>z:\4\xv6_4\xv6_4\defs.h(22): error C2182: “noreturn”: 非法使用“void”类型
+     1>z:\4\xv6_4\xv6_4\defs.h(114): error C2061: 语法错误: 标识符“__attribute__”
+     1>z:\4\xv6_4\xv6_4\defs.h(114): error C2059: 语法错误:“;”
+     1>z:\4\xv6_4\xv6_4\defs.h(114): error C2182: “noreturn”: 非法使用“void”类型
+     1>z:\4\xv6_4\xv6_4\bio.c(94): warning C4013: “panic”未定义；假设外部返回 int
+         正在生成代码...
+     1>已完成生成项目“Z:\4\xv6_4\xv6_4\xv6_4.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:07.22
