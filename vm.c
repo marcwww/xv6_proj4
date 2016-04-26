@@ -11,6 +11,8 @@ extern char data[];  // defined by kernel.ld
 pde_t *kpgdir;  // for use in scheduler()
 struct segdesc gdt[NSEGS];
 
+extern int is_lazy_alloc;
+
 // Set up CPU's kernel segment descriptors.
 // Run once on entry on each CPU.
 void
@@ -42,7 +44,7 @@ seginit(void)
 // Return the address of the PTE in page table pgdir
 // that corresponds to virtual address va.  If alloc!=0,
 // create any required page table pages.
-static pte_t *
+pte_t *
 walkpgdir(pde_t *pgdir, const void *va, int alloc)
 {
   pde_t *pde;
@@ -67,7 +69,7 @@ walkpgdir(pde_t *pgdir, const void *va, int alloc)
 // Create PTEs for virtual addresses starting at va that refer to
 // physical addresses starting at pa. va and size might not
 // be page-aligned.
-static int
+int
 mappages(pde_t *pgdir, void *va, uint size, uint pa, int perm)
 {
   char *a, *last;
@@ -79,8 +81,9 @@ mappages(pde_t *pgdir, void *va, uint size, uint pa, int perm)
     if((pte = walkpgdir(pgdir, a, 1)) == 0)
       return -1;
     if(*pte & PTE_P)
-      panic("remap");
-    *pte = pa | perm | PTE_P;
+		 panic("remap");
+
+	*pte = pa | perm | PTE_P;
     if(a == last)
       break;
     a += PGSIZE;
@@ -229,8 +232,14 @@ allocuvm(pde_t *pgdir, uint oldsz, uint newsz)
     return oldsz;
 
   a = PGROUNDUP(oldsz);
+
+  if(is_lazy_alloc)
+	  return newsz;
+
   for(; a < newsz; a += PGSIZE){
-    mem = kalloc();
+	
+	mem = kalloc();
+
     if(mem == 0){
       cprintf("allocuvm out of memory\n");
       deallocuvm(pgdir, newsz, oldsz);
@@ -258,7 +267,9 @@ deallocuvm(pde_t *pgdir, uint oldsz, uint newsz)
   a = PGROUNDUP(newsz);
   for(; a  < oldsz; a += PGSIZE){
     pte = walkpgdir(pgdir, (char*)a, 0);
+	
     if(!pte)
+	// The page table has not been allocated.
       a += (NPTENTRIES - 1) * PGSIZE;
     else if((*pte & PTE_P) != 0){
       pa = PTE_ADDR(*pte);
@@ -281,13 +292,18 @@ freevm(pde_t *pgdir)
 
   if(pgdir == 0)
     panic("freevm: no pgdir");
+  // Release all the physical pages:
   deallocuvm(pgdir, KERNBASE, 0);
+
+  // Release all the page tables:
   for(i = 0; i < NPDENTRIES; i++){
     if(pgdir[i] & PTE_P){
       char * v = p2v(PTE_ADDR(pgdir[i]));
       kfree(v);
     }
   }
+
+  // Release the page table directory:
   kfree((char*)pgdir);
 }
 
@@ -317,10 +333,22 @@ copyuvm(pde_t *pgdir, uint sz)
   if((d = setupkvm()) == 0)
     return 0;
   for(i = 0; i < sz; i += PGSIZE){
-    if((pte = walkpgdir(pgdir, (void *) i, 0)) == 0)
-      panic("copyuvm: pte should exist");
+	
+	  
+	if((pte = walkpgdir(pgdir, (void *) i, 0)) == 0)
+	{
+		if(is_lazy_alloc)
+			continue;
+		panic("copyuvm: pte should exist");
+	}
     if(!(*pte & PTE_P))
-      panic("copyuvm: page not present");
+    {
+		if(is_lazy_alloc)
+			continue;
+		panic("copyuvm: page not present");
+	}
+
+
     pa = PTE_ADDR(*pte);
     flags = PTE_FLAGS(*pte);
     if((mem = kalloc()) == 0)

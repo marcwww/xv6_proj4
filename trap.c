@@ -14,6 +14,8 @@ extern uint vectors[];  // in vectors.S: array of 256 entry pointers
 struct spinlock tickslock;
 uint ticks;
 
+extern int is_lazy_alloc;
+
 void
 tvinit(void)
 {
@@ -36,6 +38,8 @@ idtinit(void)
 void
 trap(struct trapframe *tf)
 {
+  char *mem;
+
   if(tf->trapno == T_SYSCALL){
     if(proc->killed)
       exit();
@@ -86,6 +90,25 @@ trap(struct trapframe *tf)
               tf->trapno, cpu->id, tf->eip, rcr2());
       panic("trap");
     }
+
+
+	if(is_lazy_alloc && tf->err==6 && rcr2()<proc->sz)
+	{
+		
+		mem = kalloc();
+		
+		memset(mem, 0, PGSIZE);
+		
+
+		mappages(proc->pgdir, (char*)(PGROUNDDOWN(rcr2())), PGSIZE, v2p(mem), PTE_W|PTE_U);
+		
+		
+		//cprintf("xxxx\n");
+		break;
+
+	}
+
+
     // In user space, assume process misbehaved.
     cprintf("pid %d %s: trap %d err %d on cpu %d "
             "eip 0x%x addr 0x%x--kill proc\n",

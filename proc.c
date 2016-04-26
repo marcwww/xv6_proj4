@@ -20,6 +20,8 @@ extern void trapret(void);
 
 static void wakeup1(void *chan);
 
+int is_lazy_alloc=0;
+
 void
 pinit(void)
 {
@@ -108,7 +110,11 @@ int
 growproc(int n)
 {
   uint sz;
+
+
   
+
+
   sz = proc->sz;
   if(n > 0){
     if((sz = allocuvm(proc->pgdir, sz, sz + n)) == 0)
@@ -125,6 +131,10 @@ growproc(int n)
   }
   proc->sz = sz;
   switchuvm(proc);
+
+ 
+   
+
   return 0;
 }
 
@@ -468,4 +478,11 @@ procdump(void)
     }
     cprintf("\n");
   }
+}
+
+
+void 
+set_page_allocator(int allocator)
+{
+	is_lazy_alloc=allocator;
 }

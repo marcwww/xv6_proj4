@@ -44,6 +44,8 @@ main(int argc, char *argv[])
 
     set_page_allocator(a);
 
+	
+
     //=========================
     size = 10;
     printf(1, "\n=========== TEST 1: sbrk(%d) ===========\n");
@@ -55,6 +57,9 @@ main(int argc, char *argv[])
     cur_break = sbrk(0);
     printf(1, "After sbrk(%d), break 0x%x ", size, cur_break);
     print_free_frame_cnt();
+
+
+	
 
 
     printf(1, "\n=========== TEST 2: writing valid bytes ===========\n");
@@ -76,7 +81,7 @@ main(int argc, char *argv[])
     print_free_frame_cnt();
 
 
-    printf(1, "\n=========== TEST 3: sbrk(+) --> sbrk(-) --> write ===========\n");
+	printf(1, "\n=========== TEST 3: sbrk(+) --> sbrk(-) --> write ===========\n");
     cur_break = sbrk(0);
     printf(1, "Before the sbrk(+), break 0x%x ", cur_break);
     print_free_frame_cnt();
@@ -104,6 +109,7 @@ main(int argc, char *argv[])
     *addr = 1;
     printf(1, "After the write, ");
     print_free_frame_cnt();
+
 
 
     printf(1, "\n==========="
@@ -173,8 +179,8 @@ main(int argc, char *argv[])
     printf(1, "After the sbrk(-1 page), break 0x%x ", cur_break);
     print_free_frame_cnt();
 
-
-    printf(1, "\n=========== TEST 5: allocating too much memory ===========\n");
+	
+	printf(1, "\n=========== TEST 5: allocating too much memory ===========\n");
     size = 0x7FFFFFFF;
     cur_break = sbrk(0);
     printf(1, "Before sbrk(0x%x), break 0x%x ", size, cur_break);
@@ -184,6 +190,9 @@ main(int argc, char *argv[])
     cur_break = sbrk(0);
     printf(1, "After sbrk(0x%x), break 0x%x ", size, cur_break);
     print_free_frame_cnt();
+
+	
+	
 
     printf(1,"\n=============TEST 6: fork()=========\n");
     printf(1,"Before sbrk(1024 pages),");
@@ -203,6 +212,12 @@ main(int argc, char *argv[])
     }
     sbrk(-4096*1024);
 
+	
+	
+
+
+
+
     printf(1, "\n=========== TEST 7: writing in unallocated page ===========\n");
     cur_break = sbrk(0);
     printf(1, "Before the write, break 0x%x ", cur_break);
@@ -216,6 +231,9 @@ main(int argc, char *argv[])
     printf(1, "\n");
     //=========================
     
+	set_page_allocator(0);
+	exit();
+
     exit();
 }
 

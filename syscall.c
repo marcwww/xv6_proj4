@@ -101,6 +101,9 @@ extern int sys_uptime(void);
 
 extern int sys_shutdown(void);
 extern int sys_print_free_frame_cnt(void);
+extern int sys_set_page_allocator(void);
+
+
 static int (*syscalls[])(void) = {
 [SYS_fork]    sys_fork,
 [SYS_exit]    sys_exit,
@@ -125,6 +128,7 @@ static int (*syscalls[])(void) = {
 [SYS_close]   sys_close,
 [SYS_shutdown]      sys_shutdown,
 [SYS_print_free_frame_cnt]  sys_print_free_frame_cnt,
+[SYS_set_page_allocator] sys_set_page_allocator
 };
 
 void
