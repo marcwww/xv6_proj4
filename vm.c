@@ -233,7 +233,7 @@ allocuvm(pde_t *pgdir, uint oldsz, uint newsz)
 
   a = PGROUNDUP(oldsz);
 
-  if(is_lazy_alloc)
+  if(is_lazy_alloc && !(strncmp(proc->name,"sh",2)==0 && strncmp(proc->parent->name,"sh",2)==0))
 	  return newsz;
 
   for(; a < newsz; a += PGSIZE){
